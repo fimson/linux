@@ -1,0 +1,3131 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1600 552 633 232
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+windowTimeUnit 1ns
+
+; waveform viewport range
+zoom 0.000000 5941.830000 1n
+cursor 1564.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 1817
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ct_cpsr_il - illegal Execution state" "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ct_cpsr_il"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/predict0_wptr_p3[6:0] or FQ_pointer" "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/predict0_wptr_p3[6:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/predict1_wptr_p3[6:0] or FQ_pointer" "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/predict1_wptr_p3[6:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[48]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[47]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[46]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[45]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[44]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[43]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[42]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[41]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[40]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[39]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[38]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[37]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[36]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[35]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[34]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[33]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[32]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[31]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[30]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[29]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[28]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[27]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[26]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[25]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[24]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[23]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[22]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[21]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[20]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[19]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[18]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[17]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[16]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[15]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[14]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[13]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_addr_inject[12]
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+userBusMem /LOGIC_LOW
+saveRunSig "/ls_is_addr_inject_full"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[48]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[47]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[46]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[45]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[44]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[43]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[42]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[41]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[40]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[39]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[38]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[37]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[36]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[35]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[34]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[33]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[32]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[31]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[30]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[29]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[28]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[27]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[26]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[25]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[24]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[23]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[22]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[21]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[20]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[19]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[18]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[17]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[16]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[15]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[14]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[13]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[12]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[11]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[10]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[9]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[8]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[7]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[6]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[5]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[4]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[3]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[2]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld0_i2[1]
+userBusMem /LOGIC_LOW
+saveRunSig "/pc_ld0_i2"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[48]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[47]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[46]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[45]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[44]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[43]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[42]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[41]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[40]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[39]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[38]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[37]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[36]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[35]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[34]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[33]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[32]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[31]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[30]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[29]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[28]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[27]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[26]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[25]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[24]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[23]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[22]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[21]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[20]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[19]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[18]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[17]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[16]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[15]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[14]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[13]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[12]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[11]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[10]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[9]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[8]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[7]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[6]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[5]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[4]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[3]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[2]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld1_i2[1]
+userBusMem /LOGIC_LOW
+saveRunSig "/pc_ld1_i2"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[48]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[47]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[46]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[45]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[44]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[43]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[42]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[41]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[40]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[39]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[38]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[37]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[36]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[35]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[34]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[33]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[32]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[31]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[30]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[29]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[28]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[27]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[26]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[25]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[24]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[23]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[22]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[21]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[20]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[19]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[18]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[17]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[16]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[15]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[14]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[13]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[12]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[11]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[10]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[9]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[8]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[7]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[6]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[5]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[4]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[3]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[2]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld2_i2[1]
+userBusMem /LOGIC_LOW
+saveRunSig "/pc_ld2_i2"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[48]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[47]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[46]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[45]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[44]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[43]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[42]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[41]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[40]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[39]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[38]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[37]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[36]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[35]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[34]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[33]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[32]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[31]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[30]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[29]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[28]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[27]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[26]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[25]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[24]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[23]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[22]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[21]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[20]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[19]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[18]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[17]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[16]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[15]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[14]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[13]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[12]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[11]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[10]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[9]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[8]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[7]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[6]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[5]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[4]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[3]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[2]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_ld3_i2[1]
+userBusMem /LOGIC_LOW
+saveRunSig "/pc_ld3_i2"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[48]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[47]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[46]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[45]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[44]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[43]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[42]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[41]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[40]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[39]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[38]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[37]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[36]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[35]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[34]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[33]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[32]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[31]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[30]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[29]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[28]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[27]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[26]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[25]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[24]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[23]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[22]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[21]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[20]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[19]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[18]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[17]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[16]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[15]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[14]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[13]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[12]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[11]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[10]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[9]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[8]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[7]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[6]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[5]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[4]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[3]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[2]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta0_i2[1]
+userBusMem /LOGIC_LOW
+saveRunSig "/pc_sta0_i2"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[48]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[47]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[46]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[45]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[44]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[43]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[42]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[41]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[40]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[39]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[38]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[37]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[36]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[35]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[34]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[33]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[32]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[31]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[30]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[29]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[28]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[27]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[26]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[25]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[24]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[23]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[22]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[21]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[20]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[19]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[18]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[17]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[16]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[15]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[14]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[13]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[12]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[11]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[10]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[9]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[8]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[7]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[6]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[5]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[4]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[3]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[2]
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_pc_sta1_i2[1]
+userBusMem /LOGIC_LOW
+saveRunSig "/pc_sta1_i2"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvmsync_broadcast_required_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/devicenr_txnid_v_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/txdat_sel_override_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/rxdat_late_crit_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/pcrdgrant_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/snp_fairness_thread_nxt
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvm_txrsp_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/chi_arb_active_in
+saveRunSig "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvmsync_broadcast_required_q&devicenr_tnxid_v_q&txdat_sel_override_q&l2b0_rxdat_skid_valid_q&l2b1_rxdat_skid_valid_q&l2b2_rxdat_skid_valid_q&l2b3_rxdat_skid_valid_q&rxdat_late_crit_valid_q&pcrdgrant_valid_q&snp_fairness_thread_q&dvm_txrsp_valid_q&l2b0_snp_valid_m0_q&l2b0_snp_stash_m1_q&l2b1_snp_valid_m0_q&l2b1_snp_stash_m1_q&l2b2_snp_valid_m0_q&l2b2_snp_stash_m1_q&l2b3_snp_valid_m0_q&l2b3_snp_stash_m1_q&chi_arb_active_q"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvmsync_broadcast_required_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/devicenr_txnid_v_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/txdat_sel_override_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/rxdat_late_crit_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/pcrdgrant_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/snp_fairness_thread_nxt
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvm_txrsp_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/chi_arb_active_in
+saveRunSig "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvmsync_broadcast_required_in&devicenr_txnid_v_in&txdat_sel_override_in&l2b0_rxdat_skid_valid_in&l2b1_rxdat_skid_valid_in&l2b2_rxdat_skid_valid_in&l2b3_rxdat_skid_valid_in&rxdat_late_crit_valid_in&pcrdgrant_valid_in&snp_fairness_thread_nxt&dvm_txrsp_valid_in&l2b0_snp_valid_m0_in&l2b0_snp_stash_m0&l2b1_snp_valid_m0_in&l2b1_snp_stash_m0&l2b2_snp_valid_m0_in&l2b2_snp_stash_m0&l2b3_snp_valid_m0_in&l2b3_snp_stash_m0&chi_arb_active_in"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvmsync_broadcast_required_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/devicenr_txnid_v_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/txdat_sel_override_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_rxdat_skid_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/rxdat_late_crit_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/pcrdgrant_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/snp_fairness_thread_nxt
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvm_txrsp_valid_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_snp_valid_m0_in
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_snp_stash_m0
+userBusMem /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/chi_arb_active_in
+saveRunSig "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/dvmsync_broadcast_required_q&devicenr_tnxid_v_q&txdat_sel_override_q&l2b0_rxdat_skid_valid_q&l2b1_rxdat_skid_valid_q&l2b2_rxdat_skid_valid_q&l2b3_rxdat_skid_valid_q&rxdat_late_crit_valid_q&pcrdgrant_valid_q&snp_fairness_thread_q&dvm_txrsp_valid_q&l2b0_snp_valid_m0_q&l2b0_snp_stash_m1_q&l2b1_snp_valid_m0_q&l2b1_snp_stash_m1_q&l2b2_snp_valid_m0_q&l2b2_snp_stash_m1_q&l2b3_snp_valid_m0_q&l2b3_snp_stash_m1_q&chi_arb_active_q"
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+aliasmapname REQOpcode
+nalias WriteNoSnpPtlCleanSh		'h60		ID_BLUE5
+nalias WriteEvictOrEvict		'h42		ID_BLUE5
+nalias ReadOnceCleanInvalid		'h24		ID_BLUE5
+nalias WriteUniquePtl		'h18		ID_BLUE5
+nalias WriteNoSnpPtlCleanInv		'h61		ID_BLUE5
+nalias WriteNoSnpFullCleanShPerSep		'h52		ID_BLUE5
+nalias ReadPreferUnique		'h4C		ID_BLUE5
+nalias WriteUniqueZero		'h43		ID_BLUE5
+nalias AtomicLoadSMAX		'h34		ID_BLUE5
+nalias ReadOnceMakeInvalid		'h25		ID_BLUE5
+nalias WriteUniqueFull		'h19		ID_BLUE5
+nalias Reserved		'h16		ID_BLUE5
+nalias WriteCleanFullCleanSh		'h5C		ID_BLUE5
+nalias AtomicLoadSMIN		'h35		ID_BLUE5
+nalias AtomicStoreUMAX		'h2E		ID_BLUE5
+nalias WriteCleanFull		'h17		ID_BLUE5
+nalias ReqLCrdReturn		'h0		ID_RED5
+nalias AtomicStoreUMIN		'h2F		ID_BLUE5
+nalias ReadShared		'h1		ID_BLUE5
+nalias MakeInvalid		'hA		ID_BLUE5
+nalias CleanUnique		'hB		ID_BLUE5
+nalias Reserved		'h10		ID_BLUE5
+nalias WriteNoSnpZero		'h44		ID_BLUE5
+nalias AtomicStoreADD		'h28		ID_BLUE5
+nalias ReadNoSnpSep		'h11		ID_BLUE5
+nalias WriteNoSnpPtlCleanShPerSep		'h62		ID_BLUE5
+nalias WriteUniqueFullCleanSh		'h54		ID_BLUE5
+nalias AtomicSwap		'h38		ID_BLUE5
+nalias AtomicStoreCLR		'h29		ID_BLUE5
+nalias ReadNotSharedDirty		'h26		ID_GREEN3
+nalias WriteBackPtl		'h1A		ID_BLUE5
+nalias AtomicCompare		'h39		ID_BLUE5
+nalias AtomicLoadUMAX		'h36		ID_BLUE5
+nalias CleanSharedPersist		'h27		ID_BLUE5
+nalias WriteBackFull		'h1B		ID_BLUE5
+nalias WriteCleanFullCleanShPerSep		'h5E		ID_BLUE5
+nalias AtomicLoadUMIN		'h37		ID_BLUE5
+nalias ReadClean		'h2		ID_BLUE5
+nalias MakeUnique		'hC		ID_BLUE5
+nalias ReadOnce		'h3		ID_BLUE5
+nalias Evict		'hD		ID_BLUE5
+nalias WriteUniqueFullStash		'h20		ID_BLUE5
+nalias Reserved		'h12		ID_BLUE5
+nalias WriteUniquePtlStash		'h21		ID_BLUE5
+nalias AtomicLoadADD		'h30		ID_BLUE5
+nalias StashOnceSepUnique		'h48		ID_BLUE5
+nalias CleanSharedPersistSep		'h13		ID_BLUE5
+nalias WriteNoSnpPtl		'h1C		ID_BLUE5
+nalias AtomicStoreEOR		'h2A		ID_BLUE5
+nalias AtomicLoadCLR		'h31		ID_BLUE5
+nalias WriteBackFullCleanSh		'h58		ID_BLUE5
+nalias WriteUniquePtlCleanSh		'h64		ID_BLUE5
+nalias WriteNoSnpFul		'h1D		ID_BLUE5
+nalias AtomicStoreSET		'h2B		ID_BLUE5
+nalias PrefetchTgt		'h3A		ID_BLUE5
+nalias StashOnceSepShared		'h47		ID_BLUE5
+nalias WriteUniqueFullCleanShPerSep		'h56		ID_BLUE5
+nalias WriteBackFullCMO_CLNINV		'h59		ID_BLUE5
+nalias ReadNoSnp		'h4		ID_BLUE5
+nalias PCrdReturn		'h5		ID_BLUE5
+nalias Reserved		'hE		ID_BLUE5
+nalias Reserved		'hF		ID_BLUE5
+nalias MakeReadUnique		'h41		ID_BLUE5
+nalias WriteNoSnpFullCleanSh		'h50		ID_BLUE5
+nalias StashOnceShared		'h22		ID_BLUE5
+nalias DVMOp		'h14		ID_BLUE5
+nalias WriteNoSnpFullCleanInv		'h51		ID_BLUE5
+nalias AtomicLoadEOR		'h32		ID_BLUE5
+nalias AtomicStoreSMAX		'h2C		ID_BLUE5
+nalias StashOnceUnique		'h23		ID_BLUE5
+nalias WriteEvictFull		'h15		ID_BLUE5
+nalias WriteUniquePtlCleanShPerSep		'h66		ID_BLUE5
+nalias WriteBackFullCleanShPerSep		'h5A		ID_BLUE5
+nalias AtomicLoadSET		'h33		ID_BLUE5
+nalias AtomicStoreSMIN		'h2D		ID_BLUE5
+nalias Reserved		'h1E		ID_BLUE5
+nalias Reserved		'h1F		ID_BLUE5
+nalias CleanShared		'h8		ID_BLUE5
+nalias CleanInvalid		'h9		ID_BLUE5
+nalias ReadUnique		'h7		ID_BLUE5
+
+aliasmapname RSPOpcode
+nalias RespLCrdReturn		'h0		ID_RED5
+nalias SnpResp		'h1		ID_BLUE5
+nalias Comp		'h4		ID_BLUE5
+nalias CompDBIDResp		'h5		ID_BLUE5
+nalias TagMatch		'hA		ID_BLUE5
+nalias RespSepData		'hB		ID_BLUE5
+nalias DBIDRespOrd		'hE		ID_BLUE5
+nalias StashDone		'h10		ID_BLUE5
+nalias CompStashDone		'h11		ID_BLUE5
+nalias CompCMO		'h14		ID_BLUE5
+nalias CompAck		'h2		ID_BLUE5
+nalias ReadReceipt		'h8		ID_BLUE5
+nalias RetryAck		'h3		ID_BLUE5
+nalias DBIDResp		'h6		ID_BLUE5
+nalias SnpRespFwded		'h9		ID_BLUE5
+nalias Persist		'hC		ID_BLUE5
+nalias PCrdGrant		'h7		ID_BLUE5
+nalias CompPersist		'hD		ID_BLUE5
+
+aliasmapname SNPOpcode
+nalias SnpCleanFwd		'h12		ID_BLUE5
+nalias SnpOnceFwd		'h13		ID_BLUE5
+nalias SnpPreferUniqueFwd		'h16		ID_BLUE5
+nalias SnpLCrdReturn		'h0		ID_RED5
+nalias SnpUniqueFwd		'h17		ID_BLUE5
+nalias SnpShared		'h1		ID_BLUE5
+nalias SnpNotSharedDirty		'h4		ID_BLUE5
+nalias SnpUniqueStash		'h5		ID_BLUE5
+nalias SnpMakeInvalid		'hA		ID_BLUE5
+nalias SnpStashUnique		'hB		ID_BLUE5
+nalias SnpQuery		'h10		ID_BLUE5
+nalias SnpSharedFwd		'h11		ID_BLUE5
+nalias SnpNotSharedDirtyFwd		'h14		ID_BLUE5
+nalias SnpPreferUnique		'h15		ID_BLUE5
+nalias SnpClean		'h2		ID_BLUE5
+nalias SnpCleanShared		'h8		ID_BLUE5
+nalias SnpOnce		'h3		ID_BLUE5
+nalias SnpMakeInvalidStash		'h6		ID_BLUE5
+nalias SnpCleanInvalid		'h9		ID_BLUE5
+nalias SnpStashShared		'hC		ID_BLUE5
+nalias SnpUnique		'h7		ID_BLUE5
+nalias SnpDVMOp		'hD		ID_BLUE5
+
+aliasmapname DataOpcode
+nalias DataLCrdReturn		'h0		ID_RED5
+nalias SnpRespData		'h1		ID_BLUE5
+nalias CompData		'h4		ID_BLUE5
+nalias SnpRespDataPtl		'h5		ID_BLUE5
+nalias DataSepResp		'hB		ID_BLUE5
+nalias CopyBackWrData		'h2		ID_BLUE5
+nalias NonCopyBackWrData		'h3		ID_BLUE5
+nalias SnpRespDataFwded		'h6		ID_BLUE5
+nalias NCBWrDataCompAck		'hC		ID_BLUE5
+nalias WriteDataCancel		'h7		ID_BLUE5
+
+aliasmapname RespType
+nalias COMPRESP_I		'h0		ID_RED5
+nalias COMPRESP_SC		'h1		ID_BLUE5
+nalias COMPRESP_UC		'h2		ID_BLUE5
+nalias COMPRESP_UD_PD		'h6		ID_BLUE5
+nalias COMPRESP_SD_PD		'h7		ID_BLUE5
+
+aliasmapname ReqOwner
+nalias LS		'h0		ID_BLUE5
+nalias IF		'h1		ID_ORANGE5
+nalias MMU		'h2		ID_GRAY5
+nalias PF		'h3		ID_PURPLE5
+
+aliasmapname SnpType
+nalias SNP_PREFERUNIQUE_OR_ICI_VA		3'h6		ID_YELLOW5
+nalias SNP_SHARED		'h0		ID_RED5
+nalias SNP_TLBI		'h4		ID_GREEN3
+nalias SNP_CLEANINVALID		'h1		ID_BLUE5
+nalias SNP_CPP_OR_ICI_PA		'h5		ID_CYAN5
+nalias SNP_CLEAN		'h2		ID_ORANGE5
+nalias SNP_CFP_OR_INVAL		'h3		ID_GRAY5
+nalias SNP_READDEBUG		'h7		ID_RED5
+
+aliasmapname ReqState
+nalias I		'h0		ID_RED5
+nalias UC		'h1		ID_BLUE5
+nalias UD		'h2		ID_ORANGE5
+nalias SC		'h3		ID_GRAY5
+
+aliasmapname ReqSize
+nalias 1B		'h0		ID_RED5
+nalias 2B		'h1		ID_YELLOW5
+nalias 16B		'h4		ID_PURPLE5
+nalias 32B		'h5		ID_GRAY5
+nalias 4B		'h2		ID_ORANGE5
+nalias 8B		'h3		ID_CYAN5
+nalias 64B		'h6		ID_BLUE5
+
+aliasmapname ReqAttr
+nalias NGNRNE		'h0		ID_RED5
+nalias NGNRE		'h1		ID_RED5
+nalias NC		'h4		ID_PURPLE5
+nalias WBNA		'h5		ID_BLUE5
+nalias NGRE		'h2		ID_RED5
+nalias GRE		'h3		ID_RED5
+nalias WBTR		'h6		ID_BLUE5
+nalias WBRWA		'h7		ID_BLUE5
+
+aliasmapname MEMTYPEOpcode
+nalias ATOMIC_LOAD_SMIN		7'b0010101		ID_GRAY5
+nalias DC_CVAP		7'b0110010		ID_CYAN5
+nalias READSPR		7'b0001110		ID_BLUE5
+nalias TLBI_ALLE2		7'b1001010		ID_YELLOW5
+nalias TLBI_VALE1_E2		7'b1010001		ID_YELLOW5
+nalias ATOMIC_STORE_UMAX		7'b0011110		ID_GRAY5
+nalias DC_CIVAC		7'b0110011		ID_CYAN5
+nalias TLBI_IPAS2E1		7'b1001011		ID_YELLOW5
+nalias TLBI_IPAS2E1_SE2		7'b1011010		ID_YELLOW5
+nalias WRITESPR		7'b0001111		ID_RED5
+nalias ATOMIC_STORE_UMIN		7'b0011111		ID_GRAY5
+nalias TLBI_IPAS2LE1_SE2		7'b1011011		ID_YELLOW5
+nalias EVICT		7'b0001000		ID_RED5
+nalias ATOMIC_STORE_ADD		7'b0011000		ID_GRAY5
+nalias PREFETCH_L3		7'b0000110		ID_ORANGE5
+nalias TLBI_VAAE1		7'b1000010		ID_YELLOW5
+nalias WRITE		7'b0001001		ID_RED5
+nalias ATOMIC_LOAD_UMAX		7'b0010110		ID_GRAY5
+nalias ATOMIC_STORE_CLR		7'b0011001		ID_GRAY5
+nalias DC_CISW		7'b0110100		ID_CYAN5
+nalias PREFETCH_ST_L3		7'b0000111		ID_ORANGE5
+nalias TLBI_ASIDE1_E2		7'b1010010		ID_YELLOW5
+nalias TLBI_IPAS2LE1		7'b1001100		ID_YELLOW5
+nalias TLBI_VAALE1		7'b1000011		ID_YELLOW5
+nalias ATOMIC_LOAD_UMIN		7'b0010111		ID_GRAY5
+nalias CFP		7'b1011100		ID_CYAN5
+nalias DC_CIPAPA		7'b0110101		ID_CYAN5
+nalias TLBI_VAE1_SE2		7'b1010011		ID_YELLOW5
+nalias TLBI_VAE3		7'b1001101		ID_YELLOW5
+nalias CPP		7'b1011101		ID_CYAN5
+nalias READCLEAN		7'b0000000		ID_BLUE5
+nalias ATOMIC_LOAD_ADD		7'b0010000		ID_GRAY5
+nalias READUNIQUE		7'b0000001		ID_BLUE5
+nalias ATOMIC_LOAD_CLR		7'b0010001		ID_GRAY5
+nalias DVMSYNC		7'b0101000		ID_CYAN5
+nalias TLBI_ASIDE1		7'b1000100		ID_YELLOW5
+nalias WRITESTREAM		7'b0001010		ID_RED5
+nalias TLBI_VMALLE1		7'b1000101		ID_YELLOW5
+nalias TLBI_VALE1_SE2		7'b1010100		ID_YELLOW5
+nalias ATOMIC_STORE_EOR		7'b0011010		ID_GRAY5
+nalias CMC_STORE		7'b0101001		ID_CYAN5
+nalias IC_IALL		7'b0111000		ID_BLUE5
+nalias SNP_RESP		7'b0001011		ID_PURPLE5
+nalias TLBI_VALE3		7'b1001110		ID_YELLOW5
+nalias ATOMIC_STORE_SET		7'b0011011		ID_GRAY5
+nalias IC_IVAU		7'b0111001		ID_BLUE5
+nalias TLBI_VAAE1_SE2		7'b1010101		ID_YELLOW5
+nalias TLBI_ALLE3		7'b1001111		ID_YELLOW5
+nalias ATOMIC_CAS		7'b0100000		ID_GRAY5
+nalias READUNIQUE_HIT_S		7'b0000010		ID_BLUE5
+nalias ATOMIC_LOAD_EOR		7'b0010010		ID_GRAY5
+nalias ATOMIC_SWAP		7'b0100001		ID_GRAY5
+nalias DC_CVAU		7'b0110000		ID_CYAN5
+nalias READDEBUG		7'b0000011		ID_BLUE5
+nalias SYNC_RESP		7'b0001100		ID_PURPLE5
+nalias TLBI_VAE2		7'b1001000		ID_YELLOW5
+nalias TLBI_VMALLE1_SE2		7'b1011000		ID_YELLOW5
+nalias TLBI_VALE2		7'b1001001		ID_YELLOW5
+nalias ATOMIC_LOAD_SET		7'b0010011		ID_GRAY5
+nalias ATOMIC_STORE_SMAX		7'b0011100		ID_GRAY5
+nalias DC_CVAC		7'b0110001		ID_CYAN5
+nalias SCRUB_CMC		7'b0101010		ID_PURPLE5
+nalias TLBI_ALLE1		7'b1000110		ID_YELLOW5
+nalias TLBI_VAALE1_SE2		7'b1010110		ID_YELLOW5
+nalias ATOMIC_STORE_SMIN		7'b0011101		ID_GRAY5
+nalias TLBI_VMALLS12E1		7'b1000111		ID_YELLOW5
+nalias TLBI_VMALLS12E1_SE2		7'b1011001		ID_YELLOW5
+nalias TLBI_ASIDE1_SE2		7'b1010111		ID_YELLOW5
+nalias TLBI_VAE1		7'b1000000		ID_YELLOW5
+nalias PREFETCH		7'b0000100		ID_ORANGE5
+nalias TLBI_VALE1		7'b1000001		ID_YELLOW5
+nalias TLBI_VAE1_E2		7'b1010000		ID_YELLOW5
+nalias PREFETCH_ST		7'b0000101		ID_ORANGE5
+nalias ATOMIC_STORE_64BV		7'b0100010		ID_GRAY5
+nalias ATOMIC_LOAD_SMAX		7'b0010100		ID_GRAY5
+
+aliasmapname ct_flush_type
+nalias ESB_NUKE_SELF		6'b10_0000		NULL
+nalias BRKPNT_REGHIT		6'b00_1000		NULL
+nalias P_SYSERR		6'b00_0010		NULL
+nalias DCPS		6'b11_0000		NULL
+nalias VIRQ		6'b10_0100		NULL
+nalias ESB_NUKE_NEXT		6'b10_0001		NULL
+nalias ERET		6'b01_1000		NULL
+nalias PREDECODE_ERR		6'b01_0010		NULL
+nalias BRKPNT_INST		6'b00_1100		NULL
+nalias BRKPNT_VECTRP		6'b00_1001		NULL
+nalias PRC_INT_PABORT		6'b00_0110		NULL
+nalias PFIQ		6'b00_0011		NULL
+nalias PAC_FAIL		6'b11_0001		NULL
+nalias BR_TGT		6'b11_0100		NULL
+nalias TRAP_EL1		6'b01_1100		NULL
+nalias ISB		6'b01_1001		NULL
+nalias PRC_EXT_DABORT		6'b01_0110		NULL
+nalias NUKE_GROUP		6'b01_0011		NULL
+nalias WFIT		6'b10_1010		NULL
+nalias HVC		6'b00_1101		NULL
+nalias PRC_EXT_PABORT		6'b00_0111		NULL
+nalias DBG_HALT_EXIT		6'b10_0101		NULL
+nalias SW_ACC_TRAP		6'b11_1010		NULL
+nalias TRAP_EL2		6'b01_1101		NULL
+nalias WTCHPNT		6'b01_0111		NULL
+nalias WFET		6'b10_1011		NULL
+nalias PRC_PC_PABORT		6'b11_0101		NULL
+nalias RESET		6'b00_0000		NULL
+nalias WFI		6'b01_0000		NULL
+nalias PIRQ		6'b00_0100		NULL
+nalias V_SYSERR		6'b10_0010		NULL
+nalias PRC_INT_GPC_D		6'b10_1000		NULL
+nalias WFE		6'b01_0001		NULL
+nalias BAD_BRN		6'b00_1010		NULL
+nalias DBG_HALT_REQ		6'b00_0101		NULL
+nalias SMT_MODE_SWITCH		6'b11_0010		NULL
+nalias RST_CATCH		6'b11_1000		NULL
+nalias VFIQ		6'b10_0011		NULL
+nalias ISBLITE		6'b01_1010		NULL
+nalias PRC_EXT_GPC_D		6'b10_1001		NULL
+nalias PRC_INT_DABORT		6'b01_0101		NULL
+nalias SVC		6'b00_1110		NULL
+nalias UNDEF		6'b00_1011		NULL
+nalias PRC_INT_GPC_I		6'b10_0110		NULL
+nalias BRKPNT_SNGLSTP		6'b11_0011		NULL
+nalias EXC_CATCH		6'b11_1001		NULL
+nalias HLT_INST		6'b11_1100		NULL
+nalias DRPS		6'b01_1011		NULL
+nalias PRC_SP_DABORT		6'b11_0110		NULL
+nalias MEM_NUKE_SELF		6'b01_1110		NULL
+nalias SMC		6'b00_1111		NULL
+nalias PRC_EXT_GPC_I		6'b10_0111		NULL
+nalias TRAP_EL3		6'b11_1101		NULL
+nalias MEM_NUKE_NEXT		6'b01_1111		NULL
+
+aliasmapname nvoly_l2_chi.dvmsync_broadcast_required_q&devicenr_tnxid_v_q&txdat_sel_override_q&l2b0_rxdat_skid_valid_q&l2b1_rxdat_skid_valid_q&l2b2_rxdat_skid_valid_q&l2b3_rxdat_skid_valid_q&rxdat_late_crit_valid_q&pcrdgrant_valid_q&snp_fairness_thread_q&dvm_txrsp_valid_q&l2b0_snp_valid_m0_q&l2b0_snp_stash_m1_q&l2b1_snp_valid_m0_q&l2b1_snp_stash_m1_q&l2b2_snp_valid_m0_q&l2b2_snp_stash_m1_q&l2b3_snp_valid_m0_q&l2b3_snp_stash_m1_q&chi_arb_active_q
+nalias l2b3_snp_stash_m1_q		20'b00000000000000000010		NULL
+nalias l2b2_snp_stash_m1_q		20'b00000000000000001000		NULL
+nalias l2b1_snp_stash_m1_q		20'b00000000000000100000		NULL
+nalias l2b0_snp_stash_m1_q		20'b00000000000010000000		NULL
+nalias pcrdgrant_valid_q		20'b00000000100000000000		NULL
+nalias l2b3_rxdat_skid_valid_q		20'b00000010000000000000		NULL
+nalias l2b1_rxdat_skid_valid_q		20'b00001000000000000000		NULL
+nalias txdat_sel_override_q		20'b00100000000000000000		NULL
+nalias dvmsync_broadcast_required_q		20'b10000000000000000000		NULL
+nalias dvm_txrsp_valid_q		20'b00000000001000000000		NULL
+nalias chi_arb_active_q		20'b00000000000000000001		NULL
+nalias l2b3_snp_valid_m0_q		20'b00000000000000000100		NULL
+nalias l2b2_snp_valid_m0_q		20'b00000000000000010000		NULL
+nalias l2b1_snp_valid_m0_q		20'b00000000000001000000		NULL
+nalias snp_fairness_thread_nxt		20'b00000000010000000000		NULL
+nalias rxdat_late_crit_valid_q		20'b00000001000000000000		NULL
+nalias l2b2_rxdat_skid_valid_q		20'b00000100000000000000		NULL
+nalias l2b0_rxdat_skid_valid_q		20'b00010000000000000000		NULL
+nalias devicenr_tnxid_v_q		20'b01000000000000000000		NULL
+nalias l2b0_snp_valid_m0_q		20'b00000000000100000000		NULL
+
+addGroup "Clk/Reset" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/clk
+addSignal -h 15 -holdScope reset
+addSignal -h 15 -holdScope poreset
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope reset
+addSignal -h 15 -holdScope poreset
+addGroup "CT_flush" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/clk
+addSignal -h 15 -holdScope ct_flush
+aliasname ct_flush_type
+addSignal -h 15 -UNSIGNED -BIN -holdScope ct_flush_type[5:0]
+addSignal -h 15 -holdScope ct_flush_tid[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_flush_uid[10:0]
+addSignal -h 15 -holdScope ct_ia_restart
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_restart_ia[63:0]
+addSignal -h 15 -holdScope ct_vec_restart
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_restart_vec[3:0]
+addSignal -h 15 -holdScope ct_restart_tid[0:0]
+addGroup "Commit_state" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ct_sample_pstate
+addSignal -h 15 -holdScope ct_sample_pstate_tid[0:0]
+addSignal -h 15 -holdScope ct_aarch64_state
+addSignal -h 15 -holdScope ct_cpsr_il - illegal Execution state
+addSignal -h 15 -holdScope ct_pstate_spsel
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_pstate_el[1:0]
+addSignal -h 15 -holdScope ct_sample_sys
+addSignal -h 15 -holdScope ct_sample_sys_vec
+addSignal -h 15 -holdScope ct_threads_active_tvec[0:0]
+addGroup "mx_id" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/clk
+addSignal -h 15 -holdScope mx_id_spr_v
+addSignal -h 15 -holdScope mx_id_spr_wr
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_id_spr_addr[8:0]
+addSignal -h 15 -holdScope mx_id_spr_tvec[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_id_spr_wr_data[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_mx_spr_rd_data[63:0]
+addSignal -h 15 -holdScope mx_id_cryptodisable
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/clk
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/mx_id_spr_v
+addSignal -h 15 -holdScope mx_id_spr_wr
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_id_spr_addr[8:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_id_spr_wr_data[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_mx_spr_rd_data[63:0]
+addSignal -h 15 -holdScope mx_id_cryptodisable
+addGroup "mx_if" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ix/u_mx_spr_arb/mx_if_spr_v
+addSignal -h 15 -holdScope mx_if_spr_tvec[0:0]
+addSignal -h 15 -holdScope mx_if_spr_wr
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_if_spr_addr[8:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_if_spr_wr_data[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_mx_spr_rd_data[63:0]
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/mx_if_spr_v
+addSignal -h 15 -holdScope mx_if_spr_wr
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_if_spr_addr[8:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_if_spr_wr_data[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_mx_spr_rd_data[63:0]
+addGroup "BPU -> IFU, Predict Block" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/predict0_v_p3
+addSignal -h 15 -UNSIGNED -HEX -holdScope predict0_wptr_p3[6:0] or FQ_pointer
+addSignal -h 15 -UNSIGNED -HEX -holdScope predict0_rgn_p3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope predict0_va_p3[22:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope predict1_v_p3
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope predict1_wptr_p3[6:0] or FQ_pointer
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope predict1_rgn_p3[5:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope predict1_va_p3[22:0]
+addGroup "PCTAG" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/if_is_pc_b0_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_is_pc_b0[48:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_is_pctag_b0[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_is_pctag_b0[7:2]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope if_is_pc_b1_v
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope if_is_pctag_b1[7:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope if_is_pc_b1[48:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_is_pctag_b1[7:2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_oldest_pctag[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_oldest_pctag_t0[7:0]
+addGroup "if_tbw_walk" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/if_mm_tlb_miss_v_p3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_mm_tlb_miss_va_p3[48:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_mm_tlb_miss_id_p3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_mm_tlb_miss_msid_p3[2:0]
+addSignal -h 15 -holdScope if_mm_tlb_miss_tid_p3[0:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope mm_if_tlb_miss_resp_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_if_tlb_miss_resp_pa[40:12]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope mm_if_tlb_miss_resp_id[2:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope mm_if_tlb_miss_resp_tid[0:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope mm_if_tlb_miss_resp_attr[27:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope mm_if_tlb_miss_resp_flt
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope mm_if_tlb_miss_resp_replay
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope mm_if_tlb_miss_resp_cnp
+addGroup "tlb0_activity" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_arr/tlb0_enable_n1
+addSignal -h 15 -holdScope tbw_write_valid_n1
+addSignal -h 15 -holdScope tbw_write_n1
+addSignal -h 15 -UNSIGNED -HEX -holdScope tbw_reqid_n1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb_vld_set[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb_vld_rst[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb_vld[47:0]
+addSignal -h 15 -holdScope tlb0_valid_n1_q
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb0_lu_hit[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb0_va_n1_q[22:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb0_rgn_n1_q[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb0_pa[40:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb0_pa_n1[40:12]
+addGroup "tlb1_activity" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_arr/tlb1_enable_n1
+addSignal -h 15 -holdScope tbw_write_valid_n1
+addSignal -h 15 -holdScope tbw_write_n1
+addSignal -h 15 -UNSIGNED -HEX -holdScope tbw_reqid_n1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb_vld_set[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb_vld_rst[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb_vld[47:0]
+addSignal -h 15 -holdScope tlb1_valid_n1_q
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb1_lu_hit[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb1_va_n1_q[22:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb1_rgn_n1_q[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb1_pa[40:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb1_pa_n1[40:12]
+addGroup "IF->LS request" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/if_ls_fetch_valid
+addSignal -h 15 -holdScope ls_if_fetch_rdy
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_va[13:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_pa[39:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_ibuf[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_pli_level[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_pbha[3:0]
+addSignal -h 15 -holdScope if_ls_fetch_clk_enable
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_cache_attr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_shared_attr[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_ls_fetch_isa[1:0]
+addSignal -h 15 -holdScope if_ls_fetch_outer_alloc
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/is_oldest_pctag[7:0]
+addGroup "LS->IF response" -e FALSE
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/ls_if_dvalid_m6
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_if_did_m6[3:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope ls_if_daddr_m6[5:2]
+addSignal -h 15 -holdScope ls_if_data_sbe_m8
+addSignal -h 15 -holdScope ls_if_data_err_m8
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope ls_if_data_m7[255:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_if_data_poison_m8[3:0]
+addSignal -h 15 -holdScope ls_dyn_ssbs_disable_optimization_nxt
+addGroup "IF -> ID" -e FALSE
+addSubGroup "if_id_bank_all_vld_f3" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/if_id_bank0_vld_f3
+addSignal -h 15 -holdScope if_id_bank1_vld_f3
+addSignal -h 15 -holdScope if_id_bank2_vld_f3
+addSignal -h 15 -holdScope if_id_bank3_vld_f3
+addSignal -h 15 -holdScope if_id_bank4_vld_f3
+addSignal -h 15 -holdScope if_id_bank5_vld_f3
+addSignal -h 15 -holdScope if_id_bank6_vld_f3
+addSignal -h 15 -holdScope if_id_bank7_vld_f3
+addSignal -h 15 -holdScope if_id_bank8_vld_f3
+addSignal -h 15 -holdScope if_id_bank9_vld_f3
+addSignal -h 15 -holdScope if_id_bank10_vld_f3
+addSignal -h 15 -holdScope if_id_bank11_vld_f3
+addSignal -h 15 -holdScope if_id_bank12_vld_f3
+addSignal -h 15 -holdScope if_id_bank13_vld_f3
+addSignal -h 15 -holdScope if_id_bank14_vld_f3
+addSignal -h 15 -holdScope if_id_bank15_vld_f3
+addSignal -h 15 -holdScope if_id_bank0_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank1_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank2_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank3_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank4_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank5_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank6_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank7_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank8_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank9_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank10_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank11_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank12_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank13_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank14_cmpbr_fused_f3
+addSignal -h 15 -holdScope if_id_bank15_cmpbr_fused_f3
+endSubGroup "if_id_bank_all_vld_f3"
+addSubGroup "if_id_bank*" -e FALSE
+addSubGroup "if_id_bank0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank0_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank0_attr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank0_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank0_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank0_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank0_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank0_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank0_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank0_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank0_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank0_discont_f3
+addSignal -h 15 -holdScope if_id_bank0_gp_f3
+addSignal -h 15 -holdScope if_id_bank0_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank0_id_f3[6:0]
+endSubGroup "if_id_bank0_"
+addSubGroup "if_id_bank1_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank1_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank1_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank1_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank1_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank1_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank1_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank1_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank1_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank1_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank1_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank1_discont_f3
+addSignal -h 15 -holdScope if_id_bank1_gp_f3
+addSignal -h 15 -holdScope if_id_bank1_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank1_id_f3[6:0]
+endSubGroup "if_id_bank1_"
+addSubGroup "if_id_bank2_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank2_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank2_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank2_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank2_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank2_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank2_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank2_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank2_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank2_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank2_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank2_discont_f3
+addSignal -h 15 -holdScope if_id_bank2_gp_f3
+addSignal -h 15 -holdScope if_id_bank2_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank2_id_f3[6:0]
+endSubGroup "if_id_bank2_"
+addSubGroup "if_id_bank3_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank3_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank3_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank3_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank3_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank3_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank3_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank3_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank3_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank3_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank3_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank3_discont_f3
+addSignal -h 15 -holdScope if_id_bank3_gp_f3
+addSignal -h 15 -holdScope if_id_bank3_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank3_id_f3[6:0]
+endSubGroup "if_id_bank3_"
+addSubGroup "if_id_bank4_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank4_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank4_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank4_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank4_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank4_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank4_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank4_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank4_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank4_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank4_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank4_discont_f3
+addSignal -h 15 -holdScope if_id_bank4_gp_f3
+addSignal -h 15 -holdScope if_id_bank4_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank4_id_f3[6:0]
+endSubGroup "if_id_bank4_"
+addSubGroup "if_id_bank5_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank5_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank5_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank5_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank5_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank5_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank5_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank5_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank5_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank5_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank5_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank5_discont_f3
+addSignal -h 15 -holdScope if_id_bank5_gp_f3
+addSignal -h 15 -holdScope if_id_bank5_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank5_id_f3[6:0]
+endSubGroup "if_id_bank5_"
+addSubGroup "if_id_bank6_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank6_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank6_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank6_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank6_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank6_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank6_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank6_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank6_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank6_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank6_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank6_discont_f3
+addSignal -h 15 -holdScope if_id_bank6_gp_f3
+addSignal -h 15 -holdScope if_id_bank6_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank6_id_f3[6:0]
+endSubGroup "if_id_bank6_"
+addSubGroup "if_id_bank7_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank7_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank7_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank7_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank7_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank7_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank7_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank7_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank7_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank7_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank7_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank7_discont_f3
+addSignal -h 15 -holdScope if_id_bank7_gp_f3
+addSignal -h 15 -holdScope if_id_bank7_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank7_id_f3[6:0]
+endSubGroup "if_id_bank7_"
+addSubGroup "if_id_bank8_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank8_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank8_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank8_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank8_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank8_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank8_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank8_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank8_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank8_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank8_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank8_discont_f3
+addSignal -h 15 -holdScope if_id_bank8_gp_f3
+addSignal -h 15 -holdScope if_id_bank8_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank8_id_f3[6:0]
+endSubGroup "if_id_bank8_"
+addSubGroup "if_id_bank9_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank9_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank9_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank9_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank9_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank9_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank9_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank9_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank9_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank9_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank9_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank9_discont_f3
+addSignal -h 15 -holdScope if_id_bank9_gp_f3
+addSignal -h 15 -holdScope if_id_bank9_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank9_id_f3[6:0]
+endSubGroup "if_id_bank9_"
+addSubGroup "if_id_bank10_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank10_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank10_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank10_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank10_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank10_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank10_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank10_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank10_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank10_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank10_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank10_discont_f3
+addSignal -h 15 -holdScope if_id_bank10_gp_f3
+addSignal -h 15 -holdScope if_id_bank10_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank10_id_f3[6:0]
+endSubGroup "if_id_bank10_"
+addSubGroup "if_id_bank11_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank11_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank11_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank11_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank11_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank11_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank11_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank11_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank11_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank11_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank11_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank11_discont_f3
+addSignal -h 15 -holdScope if_id_bank11_gp_f3
+addSignal -h 15 -holdScope if_id_bank11_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank11_id_f3[6:0]
+endSubGroup "if_id_bank11_"
+addSubGroup "if_id_bank12_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank12_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank12_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank12_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank12_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank12_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank12_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank12_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank12_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank12_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank12_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank12_discont_f3
+addSignal -h 15 -holdScope if_id_bank12_gp_f3
+addSignal -h 15 -holdScope if_id_bank12_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank12_id_f3[6:0]
+endSubGroup "if_id_bank12_"
+addSubGroup "if_id_bank13_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank13_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank13_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank13_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank13_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank13_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank13_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank13_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank13_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank13_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank13_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank13_discont_f3
+addSignal -h 15 -holdScope if_id_bank13_gp_f3
+addSignal -h 15 -holdScope if_id_bank13_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank13_id_f3[6:0]
+endSubGroup "if_id_bank13_"
+addSubGroup "if_id_bank14_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank14_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank14_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank14_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank14_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank14_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank14_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank14_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank14_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank14_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank14_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank14_discont_f3
+addSignal -h 15 -holdScope if_id_bank14_gp_f3
+addSignal -h 15 -holdScope if_id_bank14_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank14_id_f3[6:0]
+endSubGroup "if_id_bank14_"
+addSubGroup "if_id_bank15_" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/if_id_bank15_attr_f3[2:0]
+addSignal -h 15 -holdScope if_id_bank15_vld_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank15_pcoffset_f3[4:2]
+addSignal -h 15 -holdScope if_id_bank15_first_mm_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank15_wrptr_f3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank15_opc_f3[44:0]
+addSignal -h 15 -holdScope if_id_bank15_br_nosrc_f3
+addSignal -h 15 -holdScope if_id_bank15_eob_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank15_instr_id_f3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank15_brid_f3[7:0]
+addSignal -h 15 -holdScope if_id_bank15_discont_f3
+addSignal -h 15 -holdScope if_id_bank15_gp_f3
+addSignal -h 15 -holdScope if_id_bank15_pt_f3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_id_bank15_id_f3[6:0]
+endSubGroup "if_id_bank15_"
+endSubGroup "if_id_bank*"
+addGroup "ID -> RN" -e FALSE
+addSubGroup "id_rn_m_all_mop_vld_rr" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/clk
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m0_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m1_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m2_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m3_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m4_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m5_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m6_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m7_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m8_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m9_mop_vld_rr
+endSubGroup "id_rn_m_all_mop_vld_rr"
+addSubGroup "id_rn_m*" -e FALSE
+addSubGroup "id_rn_m0" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/clk
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m0_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m0_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m0_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m0_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m0_gen_src0_vld_rr
+addSignal -h 15 -holdScope id_rn_m0_gen_src0_32b_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_gen_src0_rr[5:0]
+addSignal -h 15 -holdScope id_rn_m0_gen_src1_vld_rr
+addSignal -h 15 -holdScope id_rn_m0_gen_src1_32b_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_gen_src1_rr[5:0]
+addSignal -h 15 -holdScope id_rn_m0_srcp_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_srcp_rr[5:0]
+addSignal -h 15 -holdScope id_rn_m0_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m0_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_fp_simd_trap_cond_rr[3:0]
+addSignal -h 15 -holdScope id_rn_m0_is_bx_rr
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/id_rn_m0_is_ls_spec_rr
+addSignal -h 15 -holdScope id_rn_m0_is_serial_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m0_is_serial_type_rr[4:0]
+addSignal -h 15 -holdScope id_rn_m0_is_stpipe_rr
+addSignal -h 15 -holdScope id_rn_m0_is_sx_rr
+addSignal -h 15 -holdScope id_rn_m0_is_vx0_only_rr
+endSubGroup "id_rn_m0"
+addSubGroup "id_rn_m1" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m1_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m1_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m1_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m1_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m1_gen_src0_vld_rr
+addSignal -h 15 -holdScope id_rn_m1_gen_src0_32b_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_gen_src0_rr[5:0]
+addSignal -h 15 -holdScope id_rn_m1_gen_src1_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_gen_src1_rr[5:0]
+addSignal -h 15 -holdScope id_rn_m1_srcp_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_srcp_rr[5:0]
+addSignal -h 15 -holdScope id_rn_m1_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m1_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m1_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m1"
+addSubGroup "id_rn_m2" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m2_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m2_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m2_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m2_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m2_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m2_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m2_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m2_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m2_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m2_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m2_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m2"
+addSubGroup "id_rn_m3" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m3_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m3_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m3_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m3_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m3_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m3_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m3_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m3_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m3_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m3_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m3_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m3"
+addSubGroup "id_rn_m4" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m4_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m4_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m4_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m4_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m4_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m4_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m4_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m4_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m4_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m4_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m4_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m4"
+addSubGroup "id_rn_m5" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m5_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m5_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m5_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m5_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m5_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m5_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m5_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m5_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m5_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m5_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m5_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m5"
+addSubGroup "id_rn_m6" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m6_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m6_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m6_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m6_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m6_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m6_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m6_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m6_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m6_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m6_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m6_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m6"
+addSubGroup "id_rn_m7" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m7_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m7_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m7_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m7_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m7_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m7_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m7_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m7_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m7_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m7_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m7_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m7"
+addSubGroup "id_rn_m8" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m8_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m8_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m8_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m8_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m8_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m8_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m8_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m8_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m8_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m8_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m8_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m8"
+addSubGroup "id_rn_m9" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/id_rn_m9_mop_vld_rr
+addSignal -h 15 -holdScope id_rn_m9_fused_parent_rr
+addSignal -h 15 -holdScope id_rn_m9_fused_child_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m9_pcoffset_rr[4:1]
+addSignal -h 15 -holdScope id_rn_m9_eob_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m9_brn_attr_rr[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m9_iq_ctl_rr[38:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m9_lc_iq_ctl_rr[27:0]
+addSignal -h 15 -holdScope id_rn_m9_frc_sve_trap_rr
+addSignal -h 15 -holdScope id_rn_m9_frc_fp_simd_trap_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope id_rn_m9_fp_simd_trap_cond_rr[3:0]
+endSubGroup "id_rn_m9"
+endSubGroup "id_rn_m*"
+addGroup "RN -> CT" -e FALSE
+addSubGroup "CT"
+addSubGroup "rn_ct_m#_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_rn/rn_ct_m0_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m0_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m0_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m0_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m0_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m1_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m1_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m1_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m1_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m1_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m2_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m2_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m2_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m2_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m2_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m3_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m3_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m3_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m3_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m3_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m4_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m4_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m4_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m4_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m4_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m5_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m5_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m5_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m5_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m5_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m6_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m6_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m6_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m6_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m6_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m7_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m7_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m7_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m7_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m7_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m8_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m8_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m8_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m8_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m8_resolved_rr[1:0]
+addSignal -h 15 -holdScope rn_ct_m9_mop_vld_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m9_uid_rr[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m9_stid_rr[9:0]
+addSignal -h 15 -holdScope rn_ct_m9_compressed_rr
+addSignal -h 15 -UNSIGNED -HEX -holdScope rn_ct_m9_resolved_rr[1:0]
+endSubGroup "rn_ct_m#_"
+endSubGroup "CT"
+addGroup "IS" -e FALSE
+addSubGroup "LS" -e FALSE
+addSubGroup "is_ls_*_ld0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_v_ld0_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uid_ld0_i1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_ld0_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_v_ld0_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_data_ld0_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_v_ld0_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_ld0_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld0_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld0_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld0_i2[32:0]
+addSignal -h 15 -holdScope is_ls_uop_ctl_ld0_i2[20]
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld0_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_pc_ld0_i2[48:1]
+addSignal -h 15 -UNSIGNED -HEX /pc_ld0_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_type_ld0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dst_size_ld0_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dstx_v_ld0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_ptag_ld0_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_vlreg_ld0_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dsty_v_ld0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_ptag_ld0_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_vlreg_ld0_i1[1:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_ld0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_ld0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_ld0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_ld0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld0_i2[32:0]
+addSignal -h 15 -holdScope is_ls_srcpg_v_ld0_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcpg_data_ld0_i2[15:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_ld0_"
+addSubGroup "is_ls_*_ld1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_v_ld1_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uid_ld1_i1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_ld1_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_v_ld1_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_data_ld1_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_v_ld1_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_ld1_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld1_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld1_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld1_i2[32:0]
+addSignal -h 15 -holdScope is_ls_uop_ctl_ld1_i2[20]
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld1_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_pc_ld1_i2[48:1]
+addSignal -h 15 -UNSIGNED -HEX /pc_ld1_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_type_ld1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dst_size_ld1_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dstx_v_ld1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_ptag_ld1_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_vlreg_ld1_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dsty_v_ld1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_ptag_ld1_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_vlreg_ld1_i1[1:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_ld1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_ld1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_ld1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_ld1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld1_i2[32:0]
+addSignal -h 15 -holdScope is_ls_srcpg_v_ld1_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcpg_data_ld1_i2[15:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_ld1_"
+addSubGroup "is_ls_*_ld2_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_v_ld2_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld2_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uid_ld2_i1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_ld2_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_v_ld2_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_data_ld2_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_v_ld2_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_ld2_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld2_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld2_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld2_i2[32:0]
+addSignal -h 15 -holdScope is_ls_uop_ctl_ld2_i2[20]
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld2_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_pc_ld2_i2[48:1]
+addSignal -h 15 -UNSIGNED -HEX /pc_ld2_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_type_ld2_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dst_size_ld2_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dstx_v_ld2_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_ptag_ld2_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_vlreg_ld2_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dsty_v_ld2_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_ptag_ld2_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_vlreg_ld2_i1[1:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_ld2_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_ld2_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_ld2_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_ld2_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld2_i2[32:0]
+addSignal -h 15 -holdScope is_ls_srcpg_v_ld2_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcpg_data_ld2_i2[15:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_ld2_"
+addSubGroup "is_ls_*_ld3_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_v_ld3_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld3_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uid_ld3_i1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_ld3_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_v_ld3_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_data_ld3_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_v_ld3_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_ld3_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld3_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld3_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld3_i2[32:0]
+addSignal -h 15 -holdScope is_ls_uop_ctl_ld3_i2[20]
+addSignal -h 15 -holdScope is_ls_issue_cancel_ld3_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_pc_ld3_i2[48:1]
+addSignal -h 15 -UNSIGNED -HEX /pc_ld3_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_type_ld3_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dst_size_ld3_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dstx_v_ld3_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_ptag_ld3_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_vlreg_ld3_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dsty_v_ld3_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_ptag_ld3_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_vlreg_ld3_i1[1:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_ld3_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_ld3_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_ld3_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_ld3_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_ld3_i2[32:0]
+addSignal -h 15 -holdScope is_ls_srcpg_v_ld3_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcpg_data_ld3_i2[15:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_ld3_"
+addSubGroup "is_ls_*_sta0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_v_sta0_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_sta0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uid_sta0_i1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_sta0_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_v_sta0_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_data_sta0_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_v_sta0_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_sta0_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta0_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta0_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta0_i2[32:0]
+addSignal -h 15 -holdScope is_ls_uop_ctl_sta0_i2[20]
+addSignal -h 15 -holdScope is_ls_issue_cancel_sta0_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_pc_sta0_i2[48:1]
+addSignal -h 15 -UNSIGNED -HEX /pc_sta0_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_type_sta0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dst_size_sta0_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dstx_v_sta0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_ptag_sta0_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_vlreg_sta0_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dsty_v_sta0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_ptag_sta0_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_vlreg_sta0_i1[1:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_sta0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_sta0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_sta0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_sta0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta0_i2[32:0]
+addSignal -h 15 -holdScope is_ls_srcpg_v_sta0_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcpg_data_sta0_i2[15:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_sta0_"
+addSubGroup "is_ls_*_sta1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_v_sta1_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_sta1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uid_sta1_i1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_sta1_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_v_sta1_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srca_data_sta1_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_v_sta1_i2[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_sta1_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta1_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta1_i2[32:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta1_i2[32:0]
+addSignal -h 15 -holdScope is_ls_uop_ctl_sta1_i2[20]
+addSignal -h 15 -holdScope is_ls_issue_cancel_sta1_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_pc_sta1_i2[48:1]
+addSignal -h 15 -UNSIGNED -HEX /pc_sta1_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_issue_type_sta1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dst_size_sta1_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dstx_v_sta1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_ptag_sta1_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dstx_vlreg_sta1_i1[2:0]
+addSignal -h 15 -holdScope is_ls_dsty_v_sta1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_ptag_sta1_i1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_dsty_vlreg_sta1_i1[1:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_sta1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_sta1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_sta1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_sta1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_uop_ctl_sta1_i2[32:0]
+addSignal -h 15 -holdScope is_ls_srcpg_v_sta1_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcpg_data_sta1_i2[15:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_sta1_"
+addSubGroup "is_ls_*_std0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_v_std0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_std0_i1[5:0]
+addSignal -h 15 -holdScope is_ls_issue_cancel_std0_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_std0_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_uop_ctl_std0_i1[3:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_std0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_std0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_std0_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_std0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_std0_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcc_data_std0_i2[63:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_std0_"
+addSubGroup "is_ls_*_std1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_v_std1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_stid_std1_i1[5:0]
+addSignal -h 15 -holdScope is_ls_issue_cancel_std1_i1
+addSignal -h 15 -holdScope is_ls_issue_cancel_std1_i2
+addSubGroup "pld" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/is_ls_uop_ctl_std1_i1[3:0]
+addSignal -h 15 -holdScope is_ls_dep_d3_resw_std1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resx_std1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resy_std1_i1
+addSignal -h 15 -holdScope is_ls_dep_d3_resz_std1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcb_data_std1_i2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ls_srcc_data_std1_i2[63:0]
+endSubGroup "pld"
+endSubGroup "is_ls_*_std1_"
+endSubGroup "LS"
+addSubGroup "CT" -e FALSE
+addSubGroup "is_ct_resolve_sx#_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_is_int/is_ct_resolve_sx0_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_sx0_uid[9:0]
+addSignal -h 15 -holdScope is_ct_resolve_sx1_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_sx1_uid[9:0]
+addSignal -h 15 -holdScope is_ct_resolve_sx2_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_sx2_uid[9:0]
+addSignal -h 15 -holdScope is_ct_resolve_sx3_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_sx3_uid[9:0]
+addSignal -h 15 -holdScope is_ct_resolve_sx4_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_sx4_uid[9:0]
+addSignal -h 15 -holdScope is_ct_resolve_sx5_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_sx5_uid[9:0]
+endSubGroup "is_ct_resolve_sx#_"
+addSubGroup "is_ct_resolve_mx#_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_is_int/is_ct_resolve_mx0_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_mx0_uid[10:0]
+addSignal -h 15 -holdScope is_ct_resolve_mx1_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_mx1_uid[10:0]
+endSubGroup "is_ct_resolve_mx#_"
+addSubGroup "is_ct_resolve_std0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_is_int/is_ct_resolve_std0_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_std0_uid[9:0]
+endSubGroup "is_ct_resolve_std0_"
+addSubGroup "is_ct_resolve_std1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_is_int/is_ct_resolve_std1_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_std1_uid[9:0]
+endSubGroup "is_ct_resolve_std1_"
+endSubGroup "CT"
+addGroup "VX" -e FALSE
+addSubGroup "LS"
+addSubGroup "vx_ls_vec_*_p0_"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/vx_ls_vec_tid_p0_i1[0:0]
+addSignal -h 15 -holdScope vx_ls_vec_stid_v_p0_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope vx_ls_vec_stid_p0_i1[5:0]
+addSignal -h 15 -holdScope vx_ls_vec_stid_v_p0_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope vx_ls_store_data_v_p0_v1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope vx_ls_store_data_p0_v1[127:0]
+endSubGroup "vx_ls_vec_*_p0_"
+addSubGroup "vx_ls_vec_*_p1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/vx_ls_vec_tid_p1_i1[0:0]
+addSignal -h 15 -holdScope vx_ls_vec_stid_v_p1_i1
+addSignal -h 15 -UNSIGNED -HEX -holdScope vx_ls_vec_stid_p1_i1[5:0]
+addSignal -h 15 -holdScope vx_ls_vec_stid_v_p1_i2
+addSignal -h 15 -UNSIGNED -HEX -holdScope vx_ls_store_data_v_p1_v1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope vx_ls_store_data_p1_v1[127:0]
+endSubGroup "vx_ls_vec_*_p1_"
+endSubGroup "LS"
+addSubGroup "CT" -e FALSE
+addSubGroup "is_ct_resolve_vx0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/is_ct_resolve_vx0_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_vx0_uid[9:0]
+endSubGroup "is_ct_resolve_vx0_"
+addSubGroup "is_ct_resolve_vx1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/is_ct_resolve_vx1_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_vx1_uid[9:0]
+endSubGroup "is_ct_resolve_vx1_"
+addSubGroup "is_ct_resolve_vx2_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/is_ct_resolve_vx2_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_vx2_uid[9:0]
+endSubGroup "is_ct_resolve_vx2_"
+addSubGroup "is_ct_resolve_vx3_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/is_ct_resolve_vx3_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_vx3_uid[9:0]
+endSubGroup "is_ct_resolve_vx3_"
+addSubGroup "is_ct_resolve_vx4_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/is_ct_resolve_vx4_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_vx4_uid[9:0]
+endSubGroup "is_ct_resolve_vx4_"
+addSubGroup "is_ct_resolve_vx5_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/is_ct_resolve_vx5_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope is_ct_resolve_vx5_uid[9:0]
+endSubGroup "is_ct_resolve_vx5_"
+endSubGroup "CT"
+addGroup "BX" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/bx_flush
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx_flush_btype[1:0]
+addSignal -h 15 -holdScope bx_flush_type
+addSignal -h 15 -holdScope bx_flush_type_t0
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx_flush_uid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx_mispred_addr_e2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx_mispred_addr_e2_t0[63:0]
+addSubGroup "CT" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/bx0_ct_resolve_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx0_ct_resolve_uid[9:0]
+addSignal -h 15 -holdScope bx0_ct_resolve_tid[0:0]
+addSignal -h 15 -holdScope bx1_ct_resolve_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx1_ct_resolve_uid[9:0]
+addSignal -h 15 -holdScope bx1_ct_resolve_tid[0:0]
+addSignal -h 15 -holdScope bx2_ct_resolve_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx2_ct_resolve_uid[9:0]
+addSignal -h 15 -holdScope bx2_ct_resolve_tid[0:0]
+addSignal -h 15 -holdScope bx3_ct_resolve_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope bx3_ct_resolve_uid[9:0]
+addSignal -h 15 -holdScope bx3_ct_resolve_tid[0:0]
+endSubGroup "CT"
+addGroup "LS" -e FALSE
+addSubGroup "IS" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_is_int/ls_is_tail_stid_t0[9:0]
+addSignal -h 15 -holdScope ls_is_store_addr_stall_iz_t0
+addSignal -h 15 -holdScope ls_is_store_data_stall_iz_t0
+addSignal -h 15 -holdScope ls_is_tlb_wakeup_iz
+addSignal -h 15 -holdScope ls_is_bubble_ld0_iz
+addSignal -h 15 -holdScope ls_is_bubble_ld1_iz
+addSignal -h 15 -holdScope ls_is_bubble_ld2_iz
+addSignal -h 15 -holdScope ls_is_bubble_ld3_iz
+addSignal -h 15 -holdScope ls_is_bubble_sta0_iz
+addSignal -h 15 -holdScope ls_is_bubble_sta1_iz
+addSignal -h 15 -UNSIGNED -HEX /ls_is_addr_inject_full
+addSubGroup "ls_is_*acc/rej_ld0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_bubble_ld0_iz
+addSignal -h 15 -holdScope ls_is_uop_reject_ld0_i2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld0_d1
+addSignal -h 15 -holdScope ls_is_uop_accept_ld0_d2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld0_d2
+addSignal -h 15 -holdScope ls_is_sb_wrap_ld0_d2
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld0_d2
+addSignal -h 15 -holdScope ls_is_uop_accept_ld0_d3
+addSignal -h 15 -holdScope ls_is_uop_reject_ld0_d3
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld0_d3
+addSignal -h 15 -holdScope ls_is_uop_accept_ld0_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_ld0_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld0_d4
+addSignal -h 15 -holdScope ls_is_uop_accept_ld0_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_ld0_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld0_d5
+endSubGroup "ls_is_*acc/rej_ld0_"
+addSubGroup "ls_is_*acc/rej_ld1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_bubble_ld1_iz
+addSignal -h 15 -holdScope ls_is_uop_reject_ld1_i2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld1_d1
+addSignal -h 15 -holdScope ls_is_uop_accept_ld1_d2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld1_d2
+addSignal -h 15 -holdScope ls_is_sb_wrap_ld1_d2
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld1_d2
+addSignal -h 15 -holdScope ls_is_uop_accept_ld1_d3
+addSignal -h 15 -holdScope ls_is_uop_reject_ld1_d3
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld1_d3
+addSignal -h 15 -holdScope ls_is_uop_accept_ld1_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_ld1_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld1_d4
+addSignal -h 15 -holdScope ls_is_uop_accept_ld1_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_ld1_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld1_d5
+endSubGroup "ls_is_*acc/rej_ld1_"
+addSubGroup "ls_is_*acc/rej_ld2_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_bubble_ld2_iz
+addSignal -h 15 -holdScope ls_is_uop_reject_ld2_i2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld2_d1
+addSignal -h 15 -holdScope ls_is_uop_accept_ld2_d2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld2_d2
+addSignal -h 15 -holdScope ls_is_sb_wrap_ld2_d2
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld2_d2
+addSignal -h 15 -holdScope ls_is_uop_accept_ld2_d3
+addSignal -h 15 -holdScope ls_is_uop_reject_ld2_d3
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld2_d3
+addSignal -h 15 -holdScope ls_is_uop_accept_ld2_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_ld2_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld2_d4
+addSignal -h 15 -holdScope ls_is_uop_accept_ld2_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_ld2_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld2_d5
+endSubGroup "ls_is_*acc/rej_ld2_"
+addSubGroup "ls_is_*acc/rej_ld3_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_bubble_ld3_iz
+addSignal -h 15 -holdScope ls_is_uop_reject_ld3_i2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld3_d1
+addSignal -h 15 -holdScope ls_is_uop_accept_ld3_d2
+addSignal -h 15 -holdScope ls_is_uop_reject_ld3_d2
+addSignal -h 15 -holdScope ls_is_sb_wrap_ld3_d2
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld3_d2
+addSignal -h 15 -holdScope ls_is_uop_accept_ld3_d3
+addSignal -h 15 -holdScope ls_is_uop_reject_ld3_d3
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_ld3_d3
+addSignal -h 15 -holdScope ls_is_uop_accept_ld3_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_ld3_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld3_d4
+addSignal -h 15 -holdScope ls_is_uop_accept_ld3_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_ld3_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_ld3_d5
+endSubGroup "ls_is_*acc/rej_ld3_"
+addSubGroup "ls_is_*acc/rej_sta0_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_bubble_sta0_iz
+addSignal -h 15 -holdScope ls_is_uop_reject_sta0_i2
+addSignal -h 15 -holdScope ls_is_uop_reject_sta0_d1
+addSignal -h 15 -holdScope ls_is_uop_accept_sta0_d2
+addSignal -h 15 -holdScope ls_is_uop_reject_sta0_d2
+addSignal -h 15 -holdScope ls_is_sb_wrap_sta0_d2
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_sta0_d2
+addSignal -h 15 -holdScope ls_is_uop_accept_sta0_d3
+addSignal -h 15 -holdScope ls_is_uop_reject_sta0_d3
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_sta0_d3
+addSignal -h 15 -holdScope ls_is_uop_accept_sta0_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_sta0_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_sta0_d4
+addSignal -h 15 -holdScope ls_is_uop_accept_sta0_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_sta0_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_sta0_d5
+endSubGroup "ls_is_*acc/rej_sta0_"
+addSubGroup "ls_is_*acc/rej_sta1_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_bubble_sta1_iz
+addSignal -h 15 -holdScope ls_is_uop_reject_sta1_i2
+addSignal -h 15 -holdScope ls_is_uop_reject_sta1_d1
+addSignal -h 15 -holdScope ls_is_uop_accept_sta1_d2
+addSignal -h 15 -holdScope ls_is_uop_reject_sta1_d2
+addSignal -h 15 -holdScope ls_is_sb_wrap_sta1_d2
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_sta1_d2
+addSignal -h 15 -holdScope ls_is_uop_accept_sta1_d3
+addSignal -h 15 -holdScope ls_is_uop_reject_sta1_d3
+addSignal -h 15 -holdScope ls_is_tlb_miss_v_sta1_d3
+addSignal -h 15 -holdScope ls_is_uop_accept_sta1_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_sta1_d4
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_sta1_d4
+addSignal -h 15 -holdScope ls_is_uop_accept_sta1_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_sta1_d5
+addSignal -h 15 -holdScope ls_is_uop_reject_reason_sta1_d5
+endSubGroup "ls_is_*acc/rej_sta1_"
+addSubGroup "ls_is_resx_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_spec_resx_v_int_d1
+addSignal -h 15 -holdScope ls_is_resx_v_d1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resx_type_d1[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resx_ptag_d1[9:0]
+addSignal -h 15 -holdScope ls_is_resx_cancel_d2
+addSignal -h 15 -holdScope ls_is_resx_cancel_d3
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resx_data_d4[127:0]
+addSignal -h 15 -holdScope ls_is_resx_cancel_d4
+endSubGroup "ls_is_resx_"
+addSubGroup "ls_is_resy_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_spec_resy_v_int_d1
+addSignal -h 15 -holdScope ls_is_resy_v_d1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resy_type_d1[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resy_ptag_d1[9:0]
+addSignal -h 15 -holdScope ls_is_resy_cancel_d2
+addSignal -h 15 -holdScope ls_is_resy_cancel_d3
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resy_data_d4[127:0]
+addSignal -h 15 -holdScope ls_is_resy_cancel_d4
+endSubGroup "ls_is_resy_"
+addSubGroup "ls_is_resz_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_spec_resz_v_int_d1
+addSignal -h 15 -holdScope ls_is_resz_v_d1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resz_type_d1[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resz_ptag_d1[9:0]
+addSignal -h 15 -holdScope ls_is_resz_cancel_d2
+addSignal -h 15 -holdScope ls_is_resz_cancel_d3
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resz_data_d4[127:0]
+addSignal -h 15 -holdScope ls_is_resz_cancel_d4
+endSubGroup "ls_is_resz_"
+addSubGroup "ls_is_resw_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/ls_is_spec_resw_v_int_d1
+addSignal -h 15 -holdScope ls_is_resw_v_d1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resw_type_d1[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resw_ptag_d1[9:0]
+addSignal -h 15 -holdScope ls_is_resw_cancel_d2
+addSignal -h 15 -holdScope ls_is_resw_cancel_d3
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resw_data_d4[127:0]
+addSignal -h 15 -holdScope ls_is_resw_cancel_d4
+endSubGroup "ls_is_resw_"
+endSubGroup "IS"
+addSubGroup "VX" -e FALSE
+addSubGroup "ls_vx_resx_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/ls_is_spec_resx_v_vec_d1
+addSignal -h 15 -holdScope ls_vx_resx_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resx_ptag_d2[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resx_type_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resx_gather_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resx_gather_id_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resx_cancel_dly_d2
+addSignal -h 15 -holdScope ls_vx_resx_cancel_dly_d2
+addSignal -h 15 -holdScope ls_is_resx_cancel_dly_d3
+addSignal -h 15 -holdScope ls_vx_resx_cancel_dly_d3
+addSignal -h 15 -holdScope ls_is_resx_cancel_dly_d4
+addSignal -h 15 -holdScope ls_vx_resx_cancel_dly_d4
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resx_data_d5[127:0]
+endSubGroup "ls_vx_resx_"
+addSubGroup "ls_vx_resy_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/ls_is_spec_resy_v_vec_d1
+addSignal -h 15 -holdScope ls_vx_resy_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resy_ptag_d2[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resy_type_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resy_gather_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resy_gather_id_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resy_cancel_dly_d2
+addSignal -h 15 -holdScope ls_vx_resy_cancel_dly_d2
+addSignal -h 15 -holdScope ls_is_resy_cancel_dly_d3
+addSignal -h 15 -holdScope ls_vx_resy_cancel_dly_d3
+addSignal -h 15 -holdScope ls_is_resy_cancel_dly_d4
+addSignal -h 15 -holdScope ls_vx_resy_cancel_dly_d4
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resy_data_d5[127:0]
+endSubGroup "ls_vx_resy_"
+addSubGroup "ls_vx_resz_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/ls_is_spec_resz_v_vec_d1
+addSignal -h 15 -holdScope ls_vx_resz_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resz_ptag_d2[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resz_type_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resz_gather_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resz_gather_id_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resz_cancel_dly_d2
+addSignal -h 15 -holdScope ls_vx_resz_cancel_dly_d2
+addSignal -h 15 -holdScope ls_is_resz_cancel_dly_d3
+addSignal -h 15 -holdScope ls_vx_resz_cancel_dly_d3
+addSignal -h 15 -holdScope ls_is_resz_cancel_dly_d4
+addSignal -h 15 -holdScope ls_vx_resz_cancel_dly_d4
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resz_data_d5[127:0]
+endSubGroup "ls_vx_resz_"
+addSubGroup "ls_vx_resw_" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_vec/ls_is_spec_resw_v_vec_d1
+addSignal -h 15 -holdScope ls_vx_resw_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resw_ptag_d2[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_is_resw_type_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resw_gather_v_d2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resw_gather_id_d2[3:0]
+addSignal -h 15 -holdScope ls_is_resw_cancel_dly_d2
+addSignal -h 15 -holdScope ls_vx_resw_cancel_dly_d2
+addSignal -h 15 -holdScope ls_is_resw_cancel_dly_d3
+addSignal -h 15 -holdScope ls_vx_resw_cancel_dly_d3
+addSignal -h 15 -holdScope ls_is_resw_cancel_dly_d4
+addSignal -h 15 -holdScope ls_vx_resw_cancel_dly_d4
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_vx_resw_data_d5[127:0]
+endSubGroup "ls_vx_resw_"
+endSubGroup "VX"
+addSubGroup "CT" -e FALSE
+addSubGroup "ls_ct_*_ld_ls0" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_v_ld_ls0
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_ct_rslv_uid_ld_ls0[10:0]
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_nuke_me_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_nuke_nxt_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpf_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpt_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_int_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_s2_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_sp_ld_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_watch_pt_ld_ls0
+endSubGroup "pld"
+endSubGroup "ls_ct_*_ld_ls0"
+addSubGroup "ls_ct_*_st_ls0" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_v_st_ls0
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_ct_rslv_uid_st_ls0[10:0]
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_nuke_me_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_nuke_nxt_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpf_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpt_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_int_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_s2_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_sp_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_spec_nuke_st_ls0
+addSignal -h 15 -holdScope ls_ct_rslv_tid_st_ls0[0:0]
+addSignal -h 15 -holdScope ls_ct_rslv_watch_pt_st_ls0
+endSubGroup "pld"
+endSubGroup "ls_ct_*_st_ls0"
+addSubGroup "ls_ct_*_ld_ls1" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_v_ld_ls1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_ct_rslv_uid_ld_ls1[10:0]
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_nuke_me_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_nuke_nxt_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpf_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpt_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_int_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_s2_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_sp_ld_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_tid_ld_ls1[0:0]
+addSignal -h 15 -holdScope ls_ct_rslv_watch_pt_ld_ls1
+endSubGroup "pld"
+endSubGroup "ls_ct_*_ld_ls1"
+addSubGroup "ls_ct_*_st_ls1" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_v_st_ls1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_ct_rslv_uid_st_ls1[10:0]
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_nuke_me_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_nuke_nxt_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpf_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpt_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_int_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_s2_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_sp_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_spec_nuke_st_ls1
+addSignal -h 15 -holdScope ls_ct_rslv_tid_st_ls1[0:0]
+addSignal -h 15 -holdScope ls_ct_rslv_watch_pt_st_ls1
+endSubGroup "pld"
+endSubGroup "ls_ct_*_st_ls1"
+addSubGroup "ls_ct_*_ld_ls2" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_v_ld_ls2
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_ct_rslv_uid_ld_ls2[10:0]
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_nuke_me_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_nuke_nxt_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpf_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpt_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_int_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_s2_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_sp_ld_ls2
+addSignal -h 15 -holdScope ls_ct_rslv_tid_ld_ls2[0:0]
+addSignal -h 15 -holdScope ls_ct_rslv_watch_pt_ld_ls2
+endSubGroup "pld"
+endSubGroup "ls_ct_*_ld_ls2"
+addSubGroup "ls_ct_*_ld_ls3" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_v_ld_ls3
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_ct_rslv_uid_ld_ls3[10:0]
+addSubGroup "pld" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ls_ct_rslv_nuke_me_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_nuke_nxt_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpf_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_gpt_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_int_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_s2_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_prc_abt_sp_ld_ls3
+addSignal -h 15 -holdScope ls_ct_rslv_tid_ld_ls3[0:0]
+addSignal -h 15 -holdScope ls_ct_rslv_watch_pt_ld_ls3
+endSubGroup "pld"
+endSubGroup "ls_ct_*_ld_ls3"
+endSubGroup "CT"
+addGroup "CT" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ct_commit_v
+addSignal -h 15 -holdScope ct_commit_tid[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_commit_uid[10:0]
+addSignal -h 15 -holdScope ct_flush
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_flush_uid[10:0]
+aliasname ct_flush_type
+addSignal -h 15 -UNSIGNED -BIN -holdScope ct_flush_type[5:0]
+addSignal -h 15 -holdScope ct_ia_restart
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_restart_ia[63:0]
+addSignal -h 15 -holdScope ct_vec_restart
+addSignal -h 15 -holdScope ct_reseed_stid_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_reseed_stid[9:0]
+addSubGroup "LS" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ct/ct_precommit_v
+addSignal -h 15 -holdScope ct_precommit_tid[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_precommit_uid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_ls_precommit_stid[9:0]
+endSubGroup "LS"
+addGroup "L2 Bank 0" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope ls_l2b0_req_m1
+addSignal -h 15 -holdScope ls_l2b0_req_possible_m1
+addSignal -h 15 -holdScope ls_l2b0_tid_m1[0:0]
+addSignal -h 15 -holdScope ls_l2b0_vic_read_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_addr_m1[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_ns_m1[1:0]
+aliasname ReqOwner
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_owner_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_pf_engine_m1[3:0]
+aliasname MEMTYPEOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_type_m1[6:0]
+addSignal -h 15 -holdScope ls_l2b0_fwd_crit_m1
+addSignal -h 15 -holdScope ls_l2b0_iodr_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_id_m1[5:0]
+aliasname ReqSize
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_size_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b0_endian_m1
+aliasname ReqAttr
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_cache_attr_m1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_page_attr_m1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_shared_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_va_m1[13:12]
+addSignal -h 15 -holdScope ls_l2b0_excl_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_vmid_m1[15:0]
+aliasname ReqState
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_state_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b0_req_tag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_tstate_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b0_tracetag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_mpam_id_ptr_m1[4:0]
+addSignal -h 15 -holdScope ls_l2b0_data_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_mpam_partid_m2[5:0]
+addSignal -h 15 -holdScope ls_l2b0_mpam_pmg_m2[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_mpam_ns_m2[1:0]
+addSignal -h 15 -holdScope ls_l2b0_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_if_evict_ns_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b0_copyback_req_m1
+addGroup "L2 Bank 1" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope ls_l2b1_req_m1
+addSignal -h 15 -holdScope ls_l2b1_req_possible_m1
+addSignal -h 15 -holdScope ls_l2b1_tid_m1[0:0]
+addSignal -h 15 -holdScope ls_l2b1_vic_read_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_addr_m1[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_ns_m1[1:0]
+aliasname ReqOwner
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_owner_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_pf_engine_m1[3:0]
+aliasname MEMTYPEOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_type_m1[6:0]
+addSignal -h 15 -holdScope ls_l2b1_fwd_crit_m1
+addSignal -h 15 -holdScope ls_l2b1_iodr_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_id_m1[5:0]
+aliasname ReqSize
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_size_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b1_endian_m1
+aliasname ReqAttr
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_cache_attr_m1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_page_attr_m1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_shared_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_va_m1[13:12]
+addSignal -h 15 -holdScope ls_l2b1_excl_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_vmid_m1[15:0]
+aliasname ReqState
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_state_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b1_req_tag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_tstate_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b1_tracetag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_mpam_id_ptr_m1[4:0]
+addSignal -h 15 -holdScope ls_l2b1_data_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_mpam_partid_m2[5:0]
+addSignal -h 15 -holdScope ls_l2b1_mpam_pmg_m2[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_mpam_ns_m2[1:0]
+addSignal -h 15 -holdScope ls_l2b1_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_if_evict_ns_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b1_copyback_req_m1
+addGroup "L2 Bank 2" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope ls_l2b2_req_m1
+addSignal -h 15 -holdScope ls_l2b2_req_possible_m1
+addSignal -h 15 -holdScope ls_l2b2_tid_m1[0:0]
+addSignal -h 15 -holdScope ls_l2b2_vic_read_m1
+addSignal -h 15 -holdScope ls_l2b2_data_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_addr_m1[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_id_m1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_va_m1[13:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_ns_m1[1:0]
+aliasname ReqOwner
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_owner_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_pf_engine_m1[3:0]
+aliasname MEMTYPEOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_type_m1[6:0]
+addSignal -h 15 -holdScope ls_l2b2_fwd_crit_m1
+addSignal -h 15 -holdScope ls_l2b2_iodr_m1
+aliasname ReqSize
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_size_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b2_endian_m1
+aliasname ReqAttr
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_cache_attr_m1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_page_attr_m1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_shared_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b2_excl_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_vmid_m1[15:0]
+aliasname ReqState
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_state_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b2_req_tag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_tstate_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b2_tracetag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_mpam_id_ptr_m1[4:0]
+addSignal -h 15 -holdScope ls_l2b2_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_if_evict_ns_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b2_copyback_req_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_mpam_partid_m2[5:0]
+addSignal -h 15 -holdScope ls_l2b2_mpam_pmg_m2[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_mpam_ns_m2[1:0]
+addGroup "L2 Bank 3" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope ls_l2b3_req_m1
+addSignal -h 15 -holdScope ls_l2b3_req_possible_m1
+addSignal -h 15 -holdScope ls_l2b3_tid_m1[0:0]
+addSignal -h 15 -holdScope ls_l2b3_vic_read_m1
+addSignal -h 15 -holdScope ls_l2b3_data_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_addr_m1[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_id_m1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_va_m1[13:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_ns_m1[1:0]
+aliasname ReqOwner
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_owner_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_pf_engine_m1[3:0]
+aliasname MEMTYPEOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_type_m1[6:0]
+addSignal -h 15 -holdScope ls_l2b3_fwd_crit_m1
+addSignal -h 15 -holdScope ls_l2b3_iodr_m1
+aliasname ReqSize
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_size_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b3_endian_m1
+aliasname ReqAttr
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_cache_attr_m1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_page_attr_m1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_shared_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b3_excl_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_vmid_m1[15:0]
+aliasname ReqState
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_state_m1[2:0]
+addSignal -h 15 -holdScope ls_l2b3_req_tag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_tstate_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b3_tracetag_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_mpam_id_ptr_m1[4:0]
+addSignal -h 15 -holdScope ls_l2b3_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_if_evict_ns_m1[1:0]
+addSignal -h 15 -holdScope ls_l2b3_copyback_req_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_mpam_partid_m2[5:0]
+addSignal -h 15 -holdScope ls_l2b3_mpam_pmg_m2[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_mpam_ns_m2[1:0]
+addGroup "Busy Sigs" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope l2_ls_ld_busy_addr6_0_mn1
+addSignal -h 15 -holdScope l2_ls_ld_busy_addr6_1_mn1
+addSignal -h 15 -holdScope l2_ls_ld_busy_addr6_0_m0
+addSignal -h 15 -holdScope l2_ls_ld_busy_addr6_1_m0
+addSubGroup "bank 0" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b0/l2b_t0_ls_wb_ld_busy_mn1
+addSignal -h 15 -holdScope l2b_t0_ls_wb_ld_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_wb_st_mo_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_pf_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_mm_cas_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_debug_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_copyback_busy_m0
+endSubGroup "bank 0"
+addSubGroup "bank 1" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b1/l2b_t0_ls_wb_ld_busy_mn1
+addSignal -h 15 -holdScope l2b_t0_ls_wb_ld_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_wb_st_mo_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_pf_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_mm_cas_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_debug_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_copyback_busy_m0
+endSubGroup "bank 1"
+addSubGroup "bank 2" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b2/l2b_t0_ls_wb_ld_busy_mn1
+addSignal -h 15 -holdScope l2b_t0_ls_wb_ld_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_wb_st_mo_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_pf_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_mm_cas_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_debug_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_copyback_busy_m0
+endSubGroup "bank 2"
+addSubGroup "bank 3" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b3/l2b_t0_ls_wb_ld_busy_mn1
+addSignal -h 15 -holdScope l2b_t0_ls_wb_ld_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_wb_st_mo_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_pf_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_mm_cas_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_debug_busy_m0
+addSignal -h 15 -holdScope l2b_t0_ls_copyback_busy_m0
+endSubGroup "bank 3"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2_pmu_chi_cbusy0
+addSignal -h 15 -holdScope l2_pmu_chi_cbusy1
+addSignal -h 15 -holdScope l2_pmu_chi_cbusy2
+addSignal -h 15 -holdScope l2_pmu_chi_cbusy3
+addSignal -h 15 -holdScope l2_pmu_chi_cbusy_mt
+addGroup "L2 Write Bus" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope ls_l2_fb_credit
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2_data_m2[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2_data_poison_m2[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2_byte_enable_m2[63:0]
+addSignal -h 15 -holdScope ls_l2_ctxt_change_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2_ctxt_change_exec_state[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2_full_va[48:12]
+addSignal -h 15 -holdScope ls_l2_full_va_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2_pc[15:0]
+addSignal -h 15 -holdScope ls_l2_pc_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2_prefetch_conservative[1:0]
+addSignal -h 15 -holdScope ls_l2_prefetch_conservative_limit
+addSignal -h 15 -holdScope ls_l2_snp_credit
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b3/valid_m3_q
+addGroup "Data Return" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope l2_ls_rvalid_m4
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_ls_rstate_m4[1:0]
+addSignal -h 15 -holdScope l2_ls_dvalid_m5
+addSignal -h 15 -holdScope l2_ls_if_mm_rvalid_m4
+addSignal -h 15 -holdScope l2_ls_if_dvalid_m5
+addSignal -h 15 -holdScope l2_ls_mm_dvalid_m5
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_ls_did_m5[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_ls_data_m6[511:0]
+addSignal -h 15 -holdScope l2_ls_mm_dvalid_16b_m5
+addSignal -h 15 -holdScope l2_ls_spec_valid_m2
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_ls_spec_id_m2[5:0]
+addSignal -h 15 -holdScope l2_ls_spec_addr_m2[5:5]
+addSignal -h 15 -holdScope l2_ls_spec_crit_m2
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_ls_spec_qw_en_m2[3:0]
+addGroup "L2->LS Snoop" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope l2_ls_snp_req
+addSignal -h 15 -holdScope l2_if_snp_req
+addSignal -h 15 -holdScope l2_mm_snp_req
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_id[4:0]
+aliasname SnpType
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_type[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_addr[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_ns[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_way[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_va[13:12]
+addSignal -h 15 -holdScope l2_cpu_snp_mte_valid
+addSignal -h 15 -holdScope l2_cpu_snp_va_valid
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_vmid[15:0]
+addSignal -h 15 -holdScope l2_cpu_snp_vmid_valid
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_asid[15:0]
+addSignal -h 15 -holdScope l2_cpu_snp_asid_valid
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_sec[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_el[1:0]
+addSignal -h 15 -holdScope l2_cpu_snp_leaf
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_stage[1:0]
+addSignal -h 15 -holdScope l2_cpu_snp_range
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_num[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_scale[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_ttl[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2_cpu_snp_tg[1:0]
+addSignal -h 15 -holdScope l2_cpu_snp_tid[0:0]
+addSignal -h 15 -holdScope l2_cpu_snp_broadcast
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/if_l2_lost_line
+addSignal -h 15 -holdScope if_l2b0_snp_resp
+addSignal -h 15 -holdScope if_l2b1_snp_resp
+addSignal -h 15 -holdScope if_l2b2_snp_resp
+addSignal -h 15 -holdScope if_l2b3_snp_resp
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_l2_snp_resp_id[4:0]
+addSignal -h 15 -holdScope if_l2_snp_credit
+addSignal -h 15 -holdScope if_l2_sync_done
+addSignal -h 15 -holdScope if_snp_idle
+addSignal -h 15 /BLANK
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/mm_l2_snp_credit[1:0]
+addSignal -h 15 -holdScope mm_l2_sync_done
+addSignal -h 15 -holdScope mm_snp_idle
+addGroup "IF Evict" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/ls_l2b0_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b0_if_evict_ns_m1[1:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/ls_l2b1_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b1_if_evict_ns_m1[1:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/ls_l2b2_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b2_if_evict_ns_m1[1:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/ls_l2b3_if_evict_valid_m1
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_if_evict_addr_m1[47:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ls_l2b3_if_evict_ns_m1[1:0]
+addGroup "TQ" -e FALSE
+addSubGroup "Bank 0" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b0/u_tq/clk_l2
+addSignal -h 15 -UNSIGNED -HEX -holdScope addr_m2_q[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_valid_q[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_alloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dealloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope needs_txreq_m3[2:0]
+addSignal -h 15 -holdScope needs_prefetchtgt_m3
+addSignal -h 15 -holdScope needs_txreq_cmo_m3
+addSignal -h 15 -holdScope needs_txrsp_m3
+addSignal -h 15 -holdScope needs_snp_m3
+addSignal -h 15 -holdScope needs_dcache_snp_m3
+addSignal -h 15 -holdScope needs_icache_snp_m3
+addSignal -h 15 -holdScope needs_sync_m3
+addSignal -h 15 -holdScope needs_retry_m3
+addSignal -h 15 -holdScope needs_snp_dat_m3
+addSignal -h 15 -holdScope needs_comp_dat_m3
+addSignal -h 15 -holdScope needs_crit_m3
+addSignal -h 15 -holdScope needs_prefetchtgt_m3_dly_q
+endSubGroup "Bank 0"
+addSubGroup "Bank 1" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b1/u_tq/clk_l2
+addSignal -h 15 -UNSIGNED -HEX -holdScope addr_m2_q[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_valid_q[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_alloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dealloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope needs_txreq_m3[2:0]
+addSignal -h 15 -holdScope needs_prefetchtgt_m3
+addSignal -h 15 -holdScope needs_txreq_cmo_m3
+addSignal -h 15 -holdScope needs_txrsp_m3
+addSignal -h 15 -holdScope needs_snp_m3
+addSignal -h 15 -holdScope needs_dcache_snp_m3
+addSignal -h 15 -holdScope needs_icache_snp_m3
+addSignal -h 15 -holdScope needs_sync_m3
+addSignal -h 15 -holdScope needs_retry_m3
+addSignal -h 15 -holdScope needs_snp_dat_m3
+addSignal -h 15 -holdScope needs_comp_dat_m3
+addSignal -h 15 -holdScope needs_crit_m3
+addSignal -h 15 -holdScope needs_prefetchtgt_m3_dly_q
+endSubGroup "Bank 1"
+addSubGroup "Bank 2" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b2/u_tq/clk_l2
+addSignal -h 15 -UNSIGNED -HEX -holdScope addr_m2_q[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_valid_q[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_alloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dealloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope needs_txreq_m3[2:0]
+addSignal -h 15 -holdScope needs_prefetchtgt_m3
+addSignal -h 15 -holdScope needs_txreq_cmo_m3
+addSignal -h 15 -holdScope needs_txrsp_m3
+addSignal -h 15 -holdScope needs_snp_m3
+addSignal -h 15 -holdScope needs_dcache_snp_m3
+addSignal -h 15 -holdScope needs_icache_snp_m3
+addSignal -h 15 -holdScope needs_sync_m3
+addSignal -h 15 -holdScope needs_retry_m3
+addSignal -h 15 -holdScope needs_snp_dat_m3
+addSignal -h 15 -holdScope needs_comp_dat_m3
+addSignal -h 15 -holdScope needs_crit_m3
+addSignal -h 15 -holdScope needs_prefetchtgt_m3_dly_q
+endSubGroup "Bank 2"
+addSubGroup "Bank 3" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b3/u_tq/clk_l2
+addSignal -h 15 -UNSIGNED -HEX -holdScope addr_m2_q[47:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_valid_q[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tq_alloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dealloc[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope needs_txreq_m3[2:0]
+addSignal -h 15 -holdScope needs_prefetchtgt_m3
+addSignal -h 15 -holdScope needs_txreq_cmo_m3
+addSignal -h 15 -holdScope needs_txrsp_m3
+addSignal -h 15 -holdScope needs_snp_m3
+addSignal -h 15 -holdScope needs_dcache_snp_m3
+addSignal -h 15 -holdScope needs_icache_snp_m3
+addSignal -h 15 -holdScope needs_sync_m3
+addSignal -h 15 -holdScope needs_retry_m3
+addSignal -h 15 -holdScope needs_snp_dat_m3
+addSignal -h 15 -holdScope needs_comp_dat_m3
+addSignal -h 15 -holdScope needs_crit_m3
+addSignal -h 15 -holdScope needs_prefetchtgt_m3_dly_q
+endSubGroup "Bank 3"
+addGroup "DVM Sync" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2_ls_sync_req
+addSignal -h 15 -holdScope l2_ls_sync_tid[0:0]
+addSignal -h 15 -holdScope l2_ls_sync_local
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2_mm_sync_req
+addSignal -h 15 -holdScope mm_l2_sync_done
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2_if_sync_req
+addSignal -h 15 -holdScope if_l2_sync_done
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2b0_ls_op_done_m4
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b0_ls_op_done_id_m4[5:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2b1_ls_op_done_id_m4[5:0]
+addSignal -h 15 -holdScope l2b1_ls_op_done_m4
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2b2_ls_op_done_m4
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b2_ls_op_done_id_m4[5:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/l2b3_ls_op_done_m4
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b3_ls_op_done_id_m4[5:0]
+addSignal -h 15 -holdScope l2_ls_if_op_done_m5
+addGroup "Tags" -e FALSE
+addSubGroup "Bank0"
+addSubGroup "Tag way10"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b0/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[0]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[1][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[1][69:0]
+endSubGroup "Tag way10"
+addSubGroup "Tag way32" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b0/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[2]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[3:2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[3][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[3][69:0]
+endSubGroup "Tag way32"
+addSubGroup "Tag way54" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b0/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[4]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[5:4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[5][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[5][69:0]
+endSubGroup "Tag way54"
+addSubGroup "Tag way76" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b0/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[6]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[7:6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[7][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[7][69:0]
+endSubGroup "Tag way76"
+endSubGroup "Bank0"
+addSubGroup "Bank1" -e FALSE
+addSubGroup "Tag way10"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b1/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[0]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[1][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[1][69:0]
+endSubGroup "Tag way10"
+addSubGroup "Tag way32"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b1/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[2]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[3:2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[3][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[3][69:0]
+endSubGroup "Tag way32"
+addSubGroup "Tag way54"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b1/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[4]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[5:4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[5][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[5][69:0]
+endSubGroup "Tag way54"
+addSubGroup "Tag way76"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b1/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[6]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[7:6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[7][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[7][69:0]
+endSubGroup "Tag way76"
+endSubGroup "Bank1"
+addSubGroup "Bank2" -e FALSE
+addSubGroup "Tag way10"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b2/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[0]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[1][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[1][69:0]
+endSubGroup "Tag way10"
+addSubGroup "Tag way32"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b2/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[2]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[3:2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[3][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[3][69:0]
+endSubGroup "Tag way32"
+addSubGroup "Tag way54"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b2/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[4]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[5:4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[5][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[5][69:0]
+endSubGroup "Tag way54"
+addSubGroup "Tag way76"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b2/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[6]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[7:6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[7][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[7][69:0]
+endSubGroup "Tag way76"
+endSubGroup "Bank2"
+addSubGroup "Bank3"
+addSubGroup "Tag way10"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b3/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[0]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[1][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[0][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[1][69:0]
+endSubGroup "Tag way10"
+addSubGroup "Tag way32"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b3/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[2]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[3:2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[3][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[2][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[3][69:0]
+endSubGroup "Tag way32"
+addSubGroup "Tag way54"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b3/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[4]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[5:4]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[5][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[4][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[5][69:0]
+endSubGroup "Tag way54"
+addSubGroup "Tag way76"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b3/u_tag/clk_l2b_tag_vic
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_vic_index_m1[9:0]
+addSignal -h 15 -holdScope tag_chip_select_2way_m1[6]
+addSignal -h 15 -holdScope tag_wr_en_2way_m1[6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_chip_select_m1[7:6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_wr_data_m1[7][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[6][69:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tag_way_data_out_m2[7][69:0]
+endSubGroup "Tag way76"
+endSubGroup "Bank3"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_b0/u_tag/reset
+addGroup "CHI i/f" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 -holdScope cpu_txsactive
+addSignal -h 15 -holdScope cpu_txreqflitpend
+addSignal -h 15 -holdScope cpu_txreqflitv
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txreqflit[171:0]
+addSignal -h 15 -holdScope cpu_txrspflitpend
+addSignal -h 15 -holdScope cpu_txrspflitv
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txrspflit[72:0]
+addSignal -h 15 -holdScope cpu_txdatflitpend
+addSignal -h 15 -holdScope cpu_txdatflitv
+addSignal -h 15 -holdScope cpu_rxsnplcrdv
+addSignal -h 15 -holdScope cpu_rxrsplcrdv
+addSignal -h 15 -holdScope cpu_rxdatlcrdv
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/cb_dftramhold
+addSignal -h 15 -holdScope cb_dftmcphold
+addSignal -h 15 -holdScope cb_dftstretchclkbypass
+addSignal -h 15 -holdScope cb_dftcgen
+addSignal -h 15 -holdScope cb_discacheinvld
+addSignal -h 15 -holdScope cb_flcore_preq
+addSignal -h 15 -UNSIGNED -HEX -holdScope cb_flcore_pstate[3:0]
+addSignal -h 15 -holdScope cb_syscoack
+addSignal -h 15 -holdScope cb_mbistreq
+addGroup "CHI to Core" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/clk
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cpu_txsactive
+addSubGroup "TX REQ" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/clk_l2
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope cb_txreqlcrdv
+addSignal -h 15 -holdScope cpu_txreqflitpend
+addSignal -h 15 -holdScope cpu_txreqflitv
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txreqflit[171:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope cpu_txreqflit[123:72]
+aliasname REQOpcode
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope txreq_opcode_full[6:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope txreq_txnid[11:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope cpu_txreqflit_opcode[6:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -UNSIGNED -HEX -holdScope cpu_txreqflit_ns[1:0]
+endSubGroup "TX REQ"
+addSubGroup "TX RSP" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cb_txrsplcrdv
+addSignal -h 15 -holdScope cpu_txrspflitpend
+addSignal -h 15 -holdScope cpu_txrspflitv
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txrspflit[72:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txrspflit[37:26]
+aliasname RSPOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txrspflit[42:38]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txrspflit[65:54]
+endSubGroup "TX RSP"
+addSubGroup "TX DATA" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cb_txdatlcrdv
+addSignal -h 15 -holdScope cpu_txdatflitpend
+addSignal -h 15 -holdScope cpu_txdatflitv
+aliasname DataOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope txdat_flit_opcode[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txdatflit[37:26]
+endSubGroup "TX DATA"
+addSubGroup "RX SNP" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cpu_rxsnplcrdv
+addSignal -h 15 -holdScope cb_rxsnpflitpend
+addSignal -h 15 -holdScope cb_rxsnpflitv
+aliasname SNPOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_opcode[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_txnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_srcid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_addr[51:3]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_ns[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_fwdnid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_fwdtxnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxsnp_mecid[9:0]
+endSubGroup "RX SNP"
+addSubGroup "RX RSP" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cpu_rxrsplcrdv
+addSignal -h 15 -holdScope cb_rxrspflitpend
+addSignal -h 15 -holdScope cb_rxrspflitv
+addSignal -h 15 -UNSIGNED -HEX -holdScope cb_rxrspflit[72:0]
+aliasname RSPOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_opcode[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_srcid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_txnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_resperr[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_resp[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_cbusy[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_dbid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_pcrdtype[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxrsp_tagop[1:0]
+endSubGroup "RX RSP"
+addSubGroup "RX DATA" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cpu_rxdatlcrdv
+addSignal -h 15 -holdScope cb_rxdatflitpend
+addSignal -h 15 -holdScope cb_rxdatflitv
+addSignal -h 15 -UNSIGNED -HEX -holdScope cb_rxdatflit[385:0]
+aliasname DataOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_opcode[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_txnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_dbid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cb_rxdatflit[76:65]
+aliasname RespType
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_resp[2:0]
+endSubGroup "RX DATA"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cpu_txsactive
+addGroup "From TQ" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/cpu_txreqflitv
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_txreqflit[173:0]
+addSignal -h 15 -holdScope cpu_txreqflitv
+aliasname REQOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope txreq_opcode_full[6:0]
+addSubGroup "Bank 0" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b0_txreq_flitpend_q
+addSignal -h 15 -holdScope l2b0_txreq_req
+addSignal -h 15 -holdScope l2b0_txreq_nonspec_req
+addSignal -h 15 -holdScope l2b0_txreq_spec_req
+addSignal -h 15 -holdScope l2b0_txreq_won
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b0_txreq_qos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b0_txreq_tgtid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b0_txreq_addr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b0_txreq_txnid[11:0]
+endSubGroup "Bank 0"
+addSubGroup "Bank 1" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b1_txreq_flitpend_q
+addSignal -h 15 -holdScope l2b1_txreq_req
+addSignal -h 15 -holdScope l2b1_txreq_nonspec_req
+addSignal -h 15 -holdScope l2b1_txreq_spec_req
+addSignal -h 15 -holdScope l2b1_txreq_won
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b1_txreq_qos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b1_txreq_tgtid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b1_txreq_addr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b1_txreq_txnid[11:0]
+endSubGroup "Bank 1"
+addSubGroup "Bank 2" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b2_txreq_flitpend_q
+addSignal -h 15 -holdScope l2b2_txreq_req
+addSignal -h 15 -holdScope l2b2_txreq_nonspec_req
+addSignal -h 15 -holdScope l2b2_txreq_spec_req
+addSignal -h 15 -holdScope l2b2_txreq_won
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b2_txreq_qos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b2_txreq_tgtid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b2_txreq_addr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b2_txreq_txnid[11:0]
+endSubGroup "Bank 2"
+addSubGroup "Bank 3" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/l2b3_txreq_flitpend_q
+addSignal -h 15 -holdScope l2b3_txreq_req
+addSignal -h 15 -holdScope l2b3_txreq_nonspec_req
+addSignal -h 15 -holdScope l2b3_txreq_spec_req
+addSignal -h 15 -holdScope l2b3_txreq_won
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b3_txreq_qos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b3_txreq_tgtid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b3_txreq_addr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope l2b3_txreq_txnid[11:0]
+endSubGroup "Bank 3"
+addSubGroup "rxdat" -e FALSE
+aliasname DataOpcode
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_l2misc/u_l2/u_chi/rxdat_flit_opcode[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_txnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_datasrc[3:0]
+aliasname DataOpcode
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_opcode[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_txnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rxdat_flit_datasrc[3:0]
+endSubGroup "rxdat"
+addGroup "CHI <-> EXT TX Channel" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_hayden_transport/chi_ext_txreqflitv_o[0:0]
+addSignal -h 15 -holdScope chi_ext_txreqflit_o[0:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope chi_ext_txrspflitv_o[0:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope chi_ext_txrspflit_o[0:0]
+addSignal -c ID_GREEN6 -ls solid -lw 1 -h 15 -holdScope chi_ext_txdatflitv_o[0:0]
+addSignal -expanded -c ID_GREEN6 -ls solid -lw 1 -h 15 -holdScope chi_ext_txdatflit_o[0:0]
+addSignal -expanded -c ID_GREEN6 -ls solid -lw 1 -h 15 -holdScope chi_ext_txdatflit_o[0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].poison[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].data[255:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].be[31:0]
+addSignal -h 15 -holdScope chi_ext_txdatflit_o[0].cah
+addSignal -h 15 -holdScope chi_ext_txdatflit_o[0].tracetag
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].tu[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].tags[7:0]
+addSignal -h 15 -UNSIGNED -holdScope chi_ext_txdatflit_o[0].tagop[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].dataid[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].ccid[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].dbid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].cbusy[2:0]
+addSignal -h 15 -holdScope chi_ext_txdatflit_o[0].cf_fwdstate
+addSignal -h 15 -holdScope chi_ext_txdatflit_o[0].cf_resp
+addSignal -h 15 -UNSIGNED -holdScope chi_ext_txdatflit_o[0].resperr[1:0]
+addSignal -h 15 -UNSIGNED -holdScope chi_ext_txdatflit_o[0].opcode[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].homenid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].txnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].srcid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].tgtid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope chi_ext_txdatflit_o[0].qos[3:0]
+addGroup "CHI <-> EXT RX channel" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_hayden_transport/ext_chi_rxsnpflitv_i[0:0]
+addSignal -h 15 -holdScope ext_chi_rxsnpflit_i[0:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope ext_chi_rxrspflitv_i[0:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope ext_chi_rxrspflit_i[0:0]
+addSignal -c ID_GREEN6 -ls solid -lw 1 -h 15 -holdScope ext_chi_rxdatflitv_i[0:0]
+addSignal -expanded -c ID_GREEN6 -ls solid -lw 1 -h 15 -holdScope ext_chi_rxdatflit_i[0:0]
+addSignal -expanded -c ID_GREEN6 -ls solid -lw 1 -h 15 -holdScope ext_chi_rxdatflit_i[0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].poison[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].data[255:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].be[31:0]
+addSignal -h 15 -holdScope ext_chi_rxdatflit_i[0].cah
+addSignal -h 15 -holdScope ext_chi_rxdatflit_i[0].tracetag
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].tu[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].tags[7:0]
+addSignal -h 15 -UNSIGNED -holdScope ext_chi_rxdatflit_i[0].tagop[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].dataid[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].ccid[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].dbid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].cbusy[2:0]
+addSignal -h 15 -holdScope ext_chi_rxdatflit_i[0].cf_fwdstate
+addSignal -h 15 -holdScope ext_chi_rxdatflit_i[0].cf_resp
+addSignal -h 15 -UNSIGNED -holdScope ext_chi_rxdatflit_i[0].resperr[1:0]
+addSignal -h 15 -UNSIGNED -holdScope ext_chi_rxdatflit_i[0].opcode[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].homenid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].txnid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].srcid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].tgtid[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ext_chi_rxdatflit_i[0].qos[3:0]
+addGroup "G79" -e FALSE
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/simTop"
+"/simTop/tb"
+"/simTop/tb/dut"
+"/simTop/tb/dut/u_hayden_cluster"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/u_bx_dp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/u_bx_dp_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_fq_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_idata_dp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_snp_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_rgn"
+
+SCOPE_LIST_BEGIN
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_arr/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/ufp/u_idata_dp/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_idata_dp/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/u_bx_dp/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/u_bx_dp_ctl/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/u_bx_dp/u_bx_dp_ctl/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/u_bx_dp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_d/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_fq_arr/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_briq/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/"
+"/simTop"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_itag_ctl"
+"/simTop/tb"
+"/simTop/tb/dut"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_idata_dp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_fq_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_idata_dp/u_cfc"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_mdata_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_mtag_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_mtag_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_mdata_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_mdata_arr/u_way0"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_mtag_arr/u_way0"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_vact_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_rgn"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_rgn/u_rgn_va_0_48_21"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_rgn/u_rgn_asid_match_31"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/u_mq/u_mrq"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/u_mq"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_idata_dp/u_dq_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_fq_dp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_ctl/u_ctl_dec"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/nvcpu_if_ls_fetch_bound_mon_if"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_fp_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_briq"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_mp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_ctl_smt"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_ctl_smt/u_ctl0"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_ip_dp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_pp/u_pp_dp"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_id/u_estate"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_snp_ctl"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/if_id_bank0_mon_intf"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_itag_arr"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_itag_arr/u_itag0_bank0_ram"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_itag_arr/u_itag0_bank1_ram"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_itag_arr/u_itag1_bank0_ram"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_itag_arr/u_itag1_bank1_ram"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_req"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_bx/u_bx_dp_ctl"
+"/simTop/tb/dut/u_hayden_cluster"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu"
+"/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
+
+FILTER_SIGNAL_BEGIN
+
+"*"
+
+FILTER_STRING_LIST_BEGIN
+FILTER_STRING_LIST_END
+
+FILTER_TYPE_LIST_BEGIN
+"All"
+"Input"
+"Output"
+"Inout"
+"Net"
+"Register"
+"Buffer"
+"Linkage"
+"ClassTransaction"
+"Property"
+"Others"
+FILTER_TYPE_LIST_END
+
+FILTER_SIGNAL_END

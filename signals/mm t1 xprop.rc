@@ -1,0 +1,66 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2560 568 620 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/cluster_top/sanity/cluster_top/oly_2t_smt_bm_ph2_t0_blaze_basic_multipass_random_seed1/oly_2t_smt_bm_ph2_t0_blaze_basic_multipass_random_seed1/debussy.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 8607220.000000
+cursor 8516374.58086847328
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 12
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/cluster_top/sanity/cluster_top/oly_2t_smt_bm_ph2_t0_blaze_basic_multipass_random_seed1/oly_2t_smt_bm_ph2_t0_blaze_basic_multipass_random_seed1/debussy.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm7/mm_tsm_s1_q[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_tsm_s1_in[10:1]
+addGroup "G2"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm7/mm_tc_tid_t3[0:0]
+addGroup "G3"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_regs_smt/ct_sample_sys
+addSignal -h 15 -UNSIGNED -HEX -holdScope ct_sample_sys_tvec[1:0]
+addGroup "G4"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_ctl/ls_mm_tlb_miss_v_a2
+addSignal -h 15 -holdScope ls_mm_tlb_miss_tid_a2[0:0]
+addSignal -h 15 -holdScope if_mm_tlb_miss_v_p3
+addSignal -h 15 -holdScope if_mm_tlb_miss_tid_p3[0:0]
+addGroup "G5"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+IFS=':' read -ra patterns <<< $1
+file="${patterns[0]}"
+
+if echo "$1" | grep -q ':[0-9]*'; then
+	line="${patterns[1]}"
+else
+	line=1
+fi
+
+gvim +$line $file

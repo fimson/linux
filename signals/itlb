@@ -1,0 +1,95 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2560 581 564 294
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/denver_verif/bugs/4229842/debussy.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 5359803.425253 5564560.291944
+cursor 5406000.000000
+marker 5040000.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 13
+
+; rename signal list
+; addRenameSig new_name org_name
+activeDirFile "" "/home/denver_verif/bugs/4229842/debussy.fsdb"
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/denver_verif/bugs/4229842/debussy.fsdb"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/if_mm_tlb_miss_v_p3
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_mm_tlb_miss_va_p3[48:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope if_mm_tlb_miss_id_p3[2:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/mm_if_tlb_miss_resp_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_if_tlb_miss_resp_pa[49:12]
+addSignal -h 15 -holdScope mm_if_tlb_miss_resp_attr[11]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_if_tlb_miss_resp_attr[27:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_if_tlb_miss_resp_id[2:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_ctl/dvm_tlb_inv_go
+addSignal -h 15 -UNSIGNED -HEX -holdScope fetch_snoop_va[22:12]
+addSignal -h 15 -holdScope snoop_via_tlb0_n1
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_req/tlb1_valid_n1_q
+addSignal -h 15 -holdScope tlb1_valid_n2
+addSignal -h 15 -holdScope tlb1_valid_n2_q
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb1_va_n1_q[22:12]
+addSignal -h 15 -UNSIGNED -HEX -holdScope tlb1_va_n2_q[22:12]
+addSignal -h 15 /BLANK
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_ctl/tbw_va_n0[22:12]
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/u_tlb_req/tbw_gpc_flt_pa_n1[49:12]
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_frontend/u_if/u_fp/tlb0_hit_n1
+addSignal -h 15 -holdScope tlb1_hit_n1
+addGroup "G2"
+addSubGroup "G6"
+endSubGroup "G6"
+addGroup "G3"
+addGroup "G5"
+addGroup "G4"
+addGroup "G6"
+addGroup "G7"
+addGroup "G8"
+addGroup "G9"
+addGroup "G11"
+addGroup "G10" -e FALSE
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

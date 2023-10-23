@@ -1,0 +1,51 @@
+rename multiple files
+find . -name "tpb" -exec bash -c 'mv $0 $(echo "$0" | sed -r "s|tpb|dpu|g")' '{}' \;
+
+multiple files search and grep - find doesn't work good with git, grep is ok
+find ./ -type f -exec sed -i -e 's/apple/orange/g' {} \;
+grep -rl 'apple' . | xargs sed -i 's/apple/orange/g'
+
+delete blank lines
+sed '/^$/d'
+
+remove lines from one file in another
+diff file1 file2 | sed '/^[0-9][0-9]*/d; s/^. //; /^---$/d' > file3
+
+remove duplicated lines in gvim
+g/^\(.*\)$\n\1$/d
+
+remove duplicated from shell
+sort garbage.txt | uniq
+
+search pattern on multiple lines (0,80 - range of number of lines)
+/AAAA\(\_s.*\)\{0,80\}\_BBBB
+
+grep from pattern to pattern
+sed -n '/aaaaa/,/bbbb/p' file
+
+non greedy vim \{-}  
+%s/aaa.\{-}/bbb/g
+
+open all files in tabs
+gvim -p *.e
+
+replace in loop with increasing number
+:let i=0 | 236,243g/11/s/11/\=i/ | let i=i+1 //replace 11 with increasing number
+
+// ----------------------------------------------
+record macro
+gvim macro
+q<letter><commands>q
+
+// ----------------------------------------------
+compress
+tar -zcvf archive_name.tar.gz directory_to_compress
+decompress
+tar -zxvf archive_name.tar.gz
+
+
+Mail
+mail -s cmds.txt -a ~/cmds.txt fulitsky@nvidia.com < ~/cmds.txt
+
+Download file from web
+curl -o ~/.vim/colors/mustang.vim https://raw.githubusercontent.com/croaker/mustang-vim/master/colors/mustang.vim

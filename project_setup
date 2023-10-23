@@ -1,0 +1,3 @@
+/home/nv/bin/envupdate -c
+nvprojectname save_default . cpu_co100_hw_core
+nvprojectname is_registered `nvprojectname resolve`

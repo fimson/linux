@@ -1,0 +1,137 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2560 568 399 225
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/rerun/cluster_top/acs_rme_v9_trace_v9_ete_ete_vi_tfo_proh_rme_1.e2h1_tge0.realm.a64_el1ns.tg4k.mmu_off/acs_rme_v9_trace_v9_ete_ete_vi_tfo_proh_rme_1.e2h1_tge0.realm.a64_el1ns.tg4k.mmu_off/debussy.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 876028735.607330 918928025.554974
+cursor 912080000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 23
+; marker line index
+markerPos 37
+
+; logical expression list
+; addExprSig expr_name expression_string
+activeDirFile "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/rerun/cluster_top/acs_rme_v9_trace_v9_ete_ete_vi_tfo_proh_rme_1.e2h1_tge0.realm.a64_el1ns.tg4k.mmu_off/acs_rme_v9_trace_v9_ete_ete_vi_tfo_proh_rme_1.e2h1_tge0.realm.a64_el1ns.tg4k.mmu_off/debussy.fsdb"
+
+addExprSig -b 1 -n U add_121 "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_d\
+b_main/u_db_spr_rd_reg/mx_dt_spr_addr[8:0]"==9'h121
+
+; logical expression list
+; addExprSig expr_name expression_string
+
+addExprSig -b 1 -n UU logical_expression_2 "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_d\
+b_main/u_db_spr_rd_reg/mx_dt_spr_v"& "/add_121"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/tcrvictrl" "/logical_expression_2" keep
+
+; logical expression list
+; addExprSig expr_name expression_string
+
+addExprSig -b 1 -n U tcrvictrl_address "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_d\
+b_main/mx_dt_spr_addr[8:0]"==9'h121
+
+; logical expression list
+; addExprSig expr_name expression_string
+
+addExprSig -b 1 -n UU trcvictrl_acc_valid "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_d\
+b_main/mx_dt_spr_v"& "/tcrvictrl_address"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/rerun/cluster_top/acs_rme_v9_trace_v9_ete_ete_vi_tfo_proh_rme_1.e2h1_tge0.realm.a64_el1ns.tg4k.mmu_off/acs_rme_v9_trace_v9_ete_ete_vi_tfo_proh_rme_1.e2h1_tge0.realm.a64_el1ns.tg4k.mmu_off/debussy.fsdb"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ix/u_ix_cluster_0/g_mx_spr/u_mx0_spr/addrmatch_aa64_trcvictlr_e1
+addSignal -h 15 -holdScope hdfgrtr_el2_trcvictlr_q
+addSignal -h 15 -holdScope hdfgwtr_el2_trcvictlr_q
+addSignal -h 15 -holdScope qual_fgt_trcvictlr_el1
+addSignal -h 15 -holdScope rd_v_trcvictlr_e1
+addSignal -h 15 -holdScope wr_v_trcvictlr_e1
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt_ls_rep/dt_dbg_rd
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ix/u_ix_cluster_0/g_mx_spr/u_mx0_spr/hdfgwtr_el2_trcvictlr_q
+addSignal -h 15 -holdScope hdfgrtr_el2_trcvictlr_q
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_db_main/u_db_spr_rd_reg/spr_dec_dbg_sel[23:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_dt_spr_v
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_dt_spr_addr[8:0]
+addSignal -h 15 -holdScope mx_dt_spr_wr
+addSignal -h 15 /tcrvictrl
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_db_main/u_db_spr_rd_reg/dt_mx_spr_rd_data[63:0]
+addSignal -h 15 -holdScope spr_rd_clken
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_db_main/mx_dt_spr_wr
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_dt_spr_wr_data[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mx_dt_spr_addr[8:0]
+addSignal -h 15 -holdScope mx_dt_spr_v
+addSignal -h 15 /tcrvictrl_address
+addSignal -h 15 -holdScope trcvictrl_acc_valid
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_db_main/et_spr_wr_reg_sel[95:0]
+addSignal -h 15 -holdScope et_spr_wr
+addSignal -h 15 -UNSIGNED -HEX -holdScope et_spr_wr_data[63:0]
+addSignal -h 15 -holdScope et_reg_write
+addSignal -h 15 -UNSIGNED -HEX -holdScope et_reg_wr_data[31:0]
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_et/u_etm/core_sr_req_i
+addSignal -h 15 -holdScope core_sr_wr_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope core_sr_sel_i[95:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope core_sr_wdata_i[63:0]
+addSignal -h 15 -holdScope etm_sr_ack_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope etm_sr_rdata_o[63:0]
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ix/u_ix_cluster_0/g_mx_spr/u_mx0_spr/addrmatch_aa64_trcprgctlr_e1
+addSignal -h 15 -holdScope addrmatch_aa64_trcvictlr_e1
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_et/u_etm/u_apb/write_viewinst_control
+addSignal -h 15 -holdScope addr_viewinst_control
+addSignal -h 15 -holdScope viewinst_sstatus_i
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_et/u_etm/u_viewinst/start_stop_reg_t2
+addSignal -h 15 -UNSIGNED -HEX -holdScope viewinst_start_cmp_reg_i[7:0]
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_dt/u_et/u_etm/u_cmp/wpt_adv_valid_t1[0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

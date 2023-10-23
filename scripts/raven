@@ -1,0 +1,1 @@
+find /home/scratch.fulitsky_cpu_1 -maxdepth 1 -name "nvcpu_arm*" | head -n 1 | sed 's/$/\/\.source_cache\/hw\/nvcpu_arm_olym\/etc\/tool_data.config/' | xargs grep -i raven

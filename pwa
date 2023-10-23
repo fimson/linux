@@ -1,0 +1,68 @@
+#create new WA
+pwa create nvcpu_arm_olym_debug -branch nvcpu_arm_olym
+
+#sync to latest
+pwa sync latest             
+
+#retrieve the CL
+gretrieve -s 65968857	
+
+#clean
+gclean --all			
+
+#check in process
+p4 edit <file>
+p4 add <new file>
+
+update the files
+
+p4 opened - verify all files are opened
+p4 change - get a changelist
+as2 submit -c 68669324 - submit the changelist
+
+as2 status <bundleID> - status tracking
+
+#p4v alias
+alias p4v '/home/utils/p4-2020.2/bin/p4v -c `pwa info client` -u $USER -p p4proxy-ban.nvidia.com:2001 &'
+
+#releases
+rels -n 1000 | grep "areiter\|<<<"
+
+#verdi
+sed -i 's/o_pri_interactive_cpu_16G/o_pri_cpu_16G/g' run_verdi.sh && run_verdi.sh &
+
+#revert
+p4 revert <file> # get the version from p4
+
+#testcopy
+nvrun testcopy . -b 4178935 --copyto sc,ban
+
+#test opts
+-tgen-opts -testArgsMore '--iss_prerun_not_available'
+'+uvm_set_verbosity=*mem_ls_passive_env*,_ALL_,UVM_HIGH,time,0'
+-sd <dir_name_prefix> 
+-so - no prebuild
+
+#debug prints
++nvcpu.cosim_lite.verbose=1 +uvm_set_verbosity=*mem_ls_passive_env*,_ALL_,UVM_HIGH,time,0'  '+uvm_set_verbosity=*mem_mm*,_ALL_,UVM_HIGH,time,0' -rununit-opts --plusargs_file=cluster_top/debug.plusargs
+
+#regression
+nvrun findfails -mylocal #see latest local results
+nvrun findfails -list_buckets -regressionRunId AEQJAycPBtt64jf3S_HjMV9iCOQ  #list of buckets for a given regression
+nvrun findfails -list_tests -regressionRunId AEQJAycPBtt64jf3S_HjMV9iCOQ -bucketId AER50_0DSKbM-fLHWZ5lPfea #list of tests for a given bucket in regression
+
+#TSIM prints
+run with +nvcpu.cosim_lite.verbose at TOT to get more information about the GPC check. 
+Here TTW = translation table walk and GPTW = Granule Protection table walk. 
+Note that first 64b number in GPTW is the physical address, the second number if the address of the block, and the third number is the data in the block. 
+Please let me know if you have more questions on this.
+
+Example prints: 
+
+0.0: GPTW DSIDE L0 0000be2cfc48 00000000b0bff010 : 00000000000000f1 BLOCK TYPE=0x01 GPI=0x0f
+0.0: TTW 1:1 0x0000be2cfc48 0x40400000969d438b : TABLE PXN=0x0 XN=0x0 AP=0x2 NS=0x0 ADDR=0x00000000969d4000
+0.0: GPTW DSIDE L0 0000969d7ab8 00000000b0bff010 : 00000000000000f1 BLOCK TYPE=0x01 GPI=0x0f
+0.0: TTW 1:2 0x0000969d7ab8 0x73800000ee000479 : BLOCK ATTRIDX=0x6 NS=0x1 AP=0x1 SH=0x0 AF=0x1 nG=0x0 GP=0x0 DBM=0x0 Contiguous=0x0 PXN=0x0 XN=0x0 PHBA=0xe
+0.0: GPTW ISIDE L0 0000ee010000 00000000b0bff018 : 00000000de520003 TABLE TYPE=0x03 ADDR=0x00000000de520000
+0.0: GPTW ISIDE L1 0000ee010000 00000000de537008 : 0000000000000000 GRANULE TYPE=0x00 GPI=0x00 PGS=4KB
+

@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/scratch.fulitsky_cpu_1/olym_debug/hw/nvcpu_olym/dvlib/testlists/testgen_config/levels/cluster_top'
+let g:netrw_dirhist_2='/home/scratch.fulitsky_cpu_1/rme_arm_olym/hw/nvcpu_arm_olym/ip/cpuip/core/1.0/testgen_config/levels/cluster_top'
+let g:netrw_dirhist_3='/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_4bx1/output/nvcpu_arm_olym_4bx1/sim/cluster_top/bughunt_bx/cluster_top/microarch_branch_prediction_stl_branch_prediction_a64_fplseed5'
+let g:netrw_dirhist_4='/home/scratch.nvcpu_cache15/nvcpu_arm_olym/release1/cl70/015/cl70015617/hw/nvcpu_arm_olym/ip/cpuip/core/1.0/dvlib/plusargs'
+let g:netrw_dirhist_5='/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym/output/nvcpu_arm_olym/sim/directed/directed_mec_bringup/cluster_top/arch_bringup_v9_rme_fetch_from_multiple_pas_a64_el0_realm/arch_bringup_v9_rme_fetch_from_multiple_pas_a64_el0_realm'
+let g:netrw_dirhist_6='/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym/hw/nvcpu_arm_olym/ip/cpuip/core/1.0/dvlib/ec/integration/core_passive/src/core_passive_env'

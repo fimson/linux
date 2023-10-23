@@ -1,0 +1,164 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2560 568 299 464
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/cluster_top/security_rme/cluster_top/acs_rme_rme_rme_gpt_rme_gpt_at_routing_s1_l3_pa_el2.tg64k.e2h1_tge0.realm.a64_el2ns.mmu_on.gpc_on_seed1/acs_rme_rme_rme_gpt_rme_gpt_at_routing_s1_l3_pa_el2.tg64k.e2h1_tge0.realm.a64_el2ns.mmu_on.gpc_on_seed1/debussy.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 35611677.090709 35663915.782497
+cursor 35621000.000000
+marker -2000.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+userMarker 26639450.608 M1 ID_GREEN5 long_dashed
+
+; visible top row signal index
+top 54
+; marker line index
+markerPos 73
+
+; logical expression list
+; addExprSig expr_name expression_string
+activeDirFile "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/cluster_top/security_rme/cluster_top/acs_rme_rme_rme_gpt_rme_gpt_at_routing_s1_l3_pa_el2.tg64k.e2h1_tge0.realm.a64_el2ns.mmu_on.gpc_on_seed1/acs_rme_rme_rme_gpt_rme_gpt_at_routing_s1_l3_pa_el2.tg64k.e2h1_tge0.realm.a64_el2ns.mmu_on.gpc_on_seed1/debussy.fsdb"
+
+addExprSig -b 1 -n U logical_expression_1 "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_m\
+m_ctl/mm_tc_va_t3[48:12]"=='h5a7c76
+
+; logical expression list
+; addExprSig expr_name expression_string
+
+addExprSig -b 1 -n U logical_expression_2 "/simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_m\
+m_ctl/mm_tc_va_t3[48:12]"=='h5a7c76
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========S3 GPC==========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/=====================S1=================" "/BLANK" keep
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1" -e FALSE
+activeDirFile "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym_rme/output/nvcpu_arm_olym_rme/sim/cluster_top/security_rme/cluster_top/acs_rme_rme_rme_gpt_rme_gpt_at_routing_s1_l3_pa_el2.tg64k.e2h1_tge0.realm.a64_el2ns.mmu_on.gpc_on_seed1/acs_rme_rme_rme_gpt_rme_gpt_at_routing_s1_l3_pa_el2.tg64k.e2h1_tge0.realm.a64_el2ns.mmu_on.gpc_on_seed1/debussy.fsdb"
+addSignal -h 25 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_ctl/clk
+addSignal -h 25 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_flt_ctl_ls1/taking_s2_tbw_abort_a2
+addSignal -h 25 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_ctl/ls1_prc_abort_info_final_a2[39:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope ls1_prc_abort_info_a2[31:0]
+addSignal -h 25 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_flt_ctl_ls1/fault_status_a2[5:0]
+addGroup "G2" -e FALSE
+addSubGroup "G6"
+addSignal -h 25 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_flt_ctl_ls1/tbw_attr_a2[27:0]
+addSignal -h 25 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm0/mm_tsm_s2_walk_lvl_q[1:0]
+endSubGroup "G6"
+addSignal -h 25 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/mm_ls_tbw_req_v
+addSignal -h 25 -UNSIGNED -HEX -holdScope mm_ls_tbw_req_pa[47:3]
+addSignal -h 25 /logical_expression_1
+addSignal -h 25 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm0/mm_tsm_tbw_rsp_v
+addSignal -h 25 -UNSIGNED -HEX -holdScope mm_tsm_tbw_rsp_data[63:0]
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_flt_ctl_ls4/taking_s1_sodev_alignment_fault_a2
+addSignal -h 15 -holdScope s1_sodev_alignment_fault_a2
+addSignal -h 15 -holdScope valid_xlat_hit_can_abort_op_a2
+addSignal -h 15 -holdScope nc_dev_unalign_flt_poss_a2
+addSignal -h 15 -holdScope s1_nc_a2
+addSignal -h 15 -holdScope nc_dev_unalign_flt_poss_a2
+addSignal -h 15 -UNSIGNED -HEX -holdScope uop_ctl_a1[5:0]
+addSignal -h 15 -holdScope nc_dev_unalign_flt_a1
+addSignal -h 15 -holdScope nc_dev_unalign_flt_poss_a2
+addSignal -h 15 -holdScope nc_dev_unalign_flt_poss_a2_q
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ix/u_ix_cluster_0/g_mx_spr/u_mx0_spr/id_aa64mmfr2_el1_at_q[3:0]
+addGroup "G3" -e FALSE
+addSignal -h 25 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm0/mm_tsm_s1_init_t3
+addSignal -h 25 -UNSIGNED -HEX -holdScope mm_tsm_s3_addr[47:3]
+addSignal -h 25 -holdScope mm_tsm_s3_walk_lvl_q
+addSignal -h 25 -holdScope mm_tsm_ls_done_q
+addSignal -h 25 -holdScope mm_tsm_rsp_flt
+addGroup "G5" -e FALSE
+addGroup "G4" -e FALSE
+addSignal -h 25 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_ctl/new_prec_flt_info[43:0]
+addSignal -h 25 -holdScope prec_flt_info_clk_en
+addSignal -h 25 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_flt_ctl_ls1/gpc_fault_int_a2
+addSignal -h 25 -UNSIGNED -HEX -holdScope fs_level_a2[1:0]
+addGroup "G6" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_ctl/mm_tc_va_t1[48:12]
+addSignal -h 15 -holdScope mm_tc_vld_t1
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_tc_va_t3[48:12]
+addSignal -h 15 /logical_expression_2
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_ctl/mm_tsm_s1_init_t3[7:0]
+addSignal -h 15 -holdScope mm_tc_vld_t3
+addGroup "G7" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_ctl/mm_ls_tlb_miss_resp_v
+addSignal -h 15 -holdScope mm_ls_tlb_miss_resp_flt
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_ls_tlb_miss_resp_pa[49:12]
+addGroup "G8" -e FALSE
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_ls/u_flt_ctl_ls4/nc_dev_unalign_flt_poss_a2_q
+addSignal -h 15 -holdScope nc_dev_unalign_flt_a1
+addSignal -h 15 -holdScope flt_vld_flop_upd_en_a1
+addSignal -h 15 -holdScope st_val_a1
+addGroup "G9" -e FALSE
+addGroup "G11"
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_ctl/mm_tc_vld_t3
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_tsm_s1_init_t3[7:0]
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm0/mm_tsm_s1_init_t3
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_ttbr_elx_baddr_q[47:2]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_ttbr_elx_baddr_ql[47:4]
+addSignal -h 15 -holdScope mm_ttbr_elx_base_found_q
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_tsm_va_q[48:12]
+addSignal -h 15 /=====================S1=================
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm0/mm_tsm_s1_walk_lvl_en
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_tsm_s1_walk_lvl_q[1:0]
+addSignal -h 15 -holdScope mm_trans_flt_s1
+addSignal -h 15 -holdScope mm_tsm_s1_wlk_active_en
+addSignal -h 15 -holdScope mm_tsm_s1_wlk_active_q
+addSignal -h 15 -holdScope mm_tsm_s3_flt_q
+addSignal -h 15 -UNSIGNED -HEX -holdScope mm_tsm_s3_err_info[7:0]
+addSignal -h 15 /==========S3 GPC==========
+addSignal -h 15 /simTop/tb/dut/u_hayden_cluster/u_core_0/u_vcpu/u_cpu/u_main/u_mm/u_mm_tsm0/mm_tsm_s3_en
+addSignal -h 15 -holdScope mm_tsm_s3_done
+addSignal -h 15 -holdScope mm_tsm_s3_wlk_lvl0
+addSignal -h 15 -holdScope mm_tsm_s3_wlk_lvl1
+addSignal -h 15 -holdScope mm_tsm_s3_walk_lvl_q
+addSignal -h 15 -holdScope mm_walk_flt_s3
+addSignal -h 15 -holdScope mm_tsm_s2_wlk_active_en
+addSignal -h 15 -holdScope mm_tsm_s2_wlk_active_q
+addGroup "G10" -e FALSE
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

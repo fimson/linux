@@ -1,0 +1,46 @@
+
+# $Id: //hw/nv/env/.cshrc_custom#2 $
+
+
+########################################
+# CUSTOM ALIASES
+########################################
+
+#alias ghostview "/home/ghostview/bin/ghostview -bg gray90"
+
+alias s source
+alias gr egrep -rin --color
+alias g '~/scripts/gvim'
+alias a alias
+alias l ls -lh --color=auto
+a ffind 's /home/scratch.fulitsky_cpu_1/scripts/ffind'
+a fc 's /home/scratch.fulitsky_cpu_1/scripts/findc'
+a h history
+a hgrep 'history | grep -i '
+a his history
+a scratch 'cd /home/scratch.fulitsky_cpu_1'
+bindkey -k up history-search-backward
+bindkey -k down history-search-forward
+alias raven ~/scripts/raven
+#alias raven 'find /home/scratch.fulitsky_cpu_1 -maxdepth 1 -name "nvcpu_arm*" | head -n 1 | sed 's/$/\/\.source_cache\/hw\/nvcpu_arm_olym\/etc\/tool_data.config/' | xargs grep -i raven'
+alias p4v '/home/utils/p4-2020.2/bin/p4v -c `pwa info client` -u $USER -p p4proxy-ban.nvidia.com:2001 &'
+alias fverdi 'sed -i 's/o_pri_interactive_cpu_16G/o_pri_cpu_16G/g' run_verdi.sh && run_verdi.sh &'
+########################################
+# CUSTOM ENV VARIABLES
+########################################
+
+# setenv NV17 /home/scratch.${USER}/nv17
+
+
+########################################
+# CUSTOM PATHS
+########################################
+
+# the ":q" suffix in $path quotes the previous path names, so we can handle
+# path directories that contain spaces.
+
+# set path = ( \
+# 	/home/utils/gcc-4.1.0/bin \
+# 	$path:q \
+# )
+
