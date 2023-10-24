@@ -13,8 +13,7 @@ alias gr egrep -rin --color
 alias g '~/scripts/gvim'
 alias a alias
 alias l ls -lh --color=auto
-a ffind 's /home/scratch.fulitsky_cpu_1/scripts/ffind'
-a fc 's /home/scratch.fulitsky_cpu_1/scripts/findc'
+a ffind 's ~/scripts/ffind'
 a h history
 a hgrep 'history | grep -i '
 a his history
