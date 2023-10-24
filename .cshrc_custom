@@ -25,6 +25,11 @@ alias raven ~/scripts/raven
 #alias raven 'find /home/scratch.fulitsky_cpu_1 -maxdepth 1 -name "nvcpu_arm*" | head -n 1 | sed 's/$/\/\.source_cache\/hw\/nvcpu_arm_olym\/etc\/tool_data.config/' | xargs grep -i raven'
 alias p4v '/home/utils/p4-2020.2/bin/p4v -c `pwa info client` -u $USER -p p4proxy-ban.nvidia.com:2001 &'
 alias fverdi 'sed -i 's/o_pri_interactive_cpu_16G/o_pri_cpu_16G/g' run_verdi.sh && run_verdi.sh &'
+
+alias meld /home/utils/meld-1.8.6-2/bin/meld
+alias bcompare /home/utils/bcompare-3.3.13.18981/bin/bcompare
+
+
 ########################################
 # CUSTOM ENV VARIABLES
 ########################################
