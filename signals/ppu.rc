@@ -1,0 +1,118 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2560 567 374 336
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym/output/nvcpu_arm_olym/sim/cluster_top/security_mec/cluster_top/arch_bringup_v9_rme_rme_basic_mec_bringup_basic_mec_bringup_a64_el2_fplseed8_seed8/arch_bringup_v9_rme_rme_basic_mec_bringup_basic_mec_bringup_a64_el2_fplseed8_seed8/debussy.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 18686.277834 196205.917257
+cursor 52000.000000
+marker 688000.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 19
+
+; rename signal list
+; addRenameSig new_name org_name
+activeDirFile "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym/output/nvcpu_arm_olym/sim/cluster_top/security_mec/cluster_top/arch_bringup_v9_rme_rme_basic_mec_bringup_basic_mec_bringup_a64_el2_fplseed8_seed8/arch_bringup_v9_rme_rme_basic_mec_bringup_basic_mec_bringup_a64_el2_fplseed8_seed8/debussy.fsdb"
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========PPU==========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========PPU to PCSM==========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========PCSM to PPU==========" "/==========Divider==========" keep
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/scratch.fulitsky_cpu_1/nvcpu_arm_olym/output/nvcpu_arm_olym/sim/cluster_top/security_mec/cluster_top/arch_bringup_v9_rme_rme_basic_mec_bringup_basic_mec_bringup_a64_el2_fplseed8_seed8/arch_bringup_v9_rme_rme_basic_mec_bringup_basic_mec_bringup_a64_el2_fplseed8_seed8/debussy.fsdb"
+addSignal -h 15 /simTop/tb/reset_n
+addSignal -h 15 -holdScope corewake[0:0]
+addSignal -h 15 -holdScope corewakerequest[0:0]
+addSignal -h 15 /simTop/tb/dut/coreporeset_n[0:0]
+addSignal -h 15 -holdScope corereset_n[0:0]
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/rvbaraddr0[47:0]
+addSignal -h 15 /==========PPU==========
+addSignal -h 15 /simTop/tb/u_execution_tb_val_util_bus/u_execution_tb_val_ppu/write_enable_o
+addSignal -h 15 -UNSIGNED -holdScope ppu_state[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope write_ppu_addr[23:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope write_ppu_data_o[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope read_ppu_addr[23:0]
+addGroup "3"
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/corepcsmpaccept[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope corepcsmpreq[0:0]
+addSignal -h 15 -holdScope corepcsmpstate[0:0]
+addSignal -h 15 -holdScope CORE0PCSMPREQ
+addSignal -h 15 -UNSIGNED -HEX -holdScope CORE0PCSMPSTATE[15:0]
+addSignal -h 15 -holdScope CORE0PCSMPACCEPT
+addSignal -h 15 /BLANK
+addSignal -h 15 -holdScope ==========PPU to PCSM==========
+addSignal -h 15 /simTop/tb/dut/u_hayden_ppu_top/clusterpcsmpreq_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope clusterpcsmpstate_o[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope complexpcsmpreq_o[0:0]
+addSignal -h 15 -holdScope complexpcsmpstate_o[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope corepcsmpreq_o[0:0]
+addSignal -expanded -h 15 -holdScope corepcsmpstate_o[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope corepcsmpstate_o[0][3:0]
+addSignal -h 15 /==========PCSM to PPU==========
+addSignal -h 15 -UNSIGNED -HEX /simTop/tb/dut/u_hayden_ppu_top/clusterpcsmmodestat_i[7:0]
+addSignal -h 15 -holdScope clusterpcsmpaccept_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope complexpcsmpaccept_i[0:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope corepcsmpaccept_i[0:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
