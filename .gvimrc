@@ -9,3 +9,4 @@ imap <S-Insert> <C-R>+
 set tabstop=4
 noremap z 0i//<Esc>
 colorscheme jellybeans
+set expandtab
