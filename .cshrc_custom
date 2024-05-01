@@ -20,6 +20,8 @@ a his history
 a scratch 'cd /home/scratch.fulitsky_cpu_1'
 bindkey -k up history-search-backward
 bindkey -k down history-search-forward
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 alias raven ~/scripts/raven
 #alias raven 'find /home/scratch.fulitsky_cpu_1 -maxdepth 1 -name "nvcpu_arm*" | head -n 1 | sed 's/$/\/\.source_cache\/hw\/nvcpu_arm_olym\/etc\/tool_data.config/' | xargs grep -i raven'
 alias p4v '/home/utils/p4-2020.2/bin/p4v -c `pwa info client` -u $USER -p p4proxy-ban.nvidia.com:2001 &'
