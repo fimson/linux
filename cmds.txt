@@ -49,3 +49,6 @@ mail -s cmds.txt -a ~/cmds.txt fulitsky@nvidia.com < ~/cmds.txt
 
 Download file from web
 curl -o ~/.vim/colors/mustang.vim https://raw.githubusercontent.com/croaker/mustang-vim/master/colors/mustang.vim
+
+copy between sites
+scp -r mtlxwap1415:network_crspace_regs.h .
