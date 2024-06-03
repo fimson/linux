@@ -3,6 +3,16 @@
 IFS=':' read -ra patterns <<< $1
 file="${patterns[0]}"
 
+# Check if the first two characters are "//"
+# This would be the case for P4 paths
+if [[ "${file:0:2}" == "//" ]]; then
+    # Remove the first two characters
+    file="${file:2}"
+fi
+
+# Remove the trailing # in P4 paths
+file="${file%#*}"
+
 if echo "$1" | grep -q ':[0-9]*'; then
 	line="${patterns[1]}"
 else
